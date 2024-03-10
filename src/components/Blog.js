@@ -146,7 +146,7 @@ export default function Blog() {
 
 {createPost ? (
         // Condition: Display CreatePost component
-        <CreatePost user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>
+        <CreatePost data={data} setdata={setdata} user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>
       ) : viewPosts ? (
         // Condition: Display ViewPosts component
         <ViewPosts user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>
@@ -156,7 +156,7 @@ export default function Blog() {
           <MainFeaturedPost post={mainFeaturedPost} />
           {data.length > 0 ? (<Box sx={{ flexGrow: 1 }}><Grid item xs={5}>
             {data.map((post) => (
-              <FeaturedPost key={post.title} post={post} />
+              <FeaturedPost key={post.title} post={post} data={data} user={user} setdata={setdata}/>
             ))}
           </Grid></Box>) : (null)}
           <Grid container spacing={5} sx={{ mt: 3 }}>
@@ -176,6 +176,7 @@ export default function Blog() {
         title="Footer"
         description="Something here to give the footer a purpose!"
       />
+      <button onClick={() => {console.log(data)}}>YASH</button>
     </ThemeProvider>
   );
 }

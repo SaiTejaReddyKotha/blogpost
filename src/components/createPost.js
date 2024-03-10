@@ -9,7 +9,7 @@ function CreatePost(props) {
   const [description, setDescription] = useState("");
   const [postForm, handlePostForm] = useState({
     title: "",
-    category: "",
+    Category: "",
   });
 
   // State variable for the label of the post button
@@ -38,13 +38,13 @@ function CreatePost(props) {
     setBtnClicked(true);
 
     // Extract the form data to be sent to the server
-    const { title, category, postImage } = postForm;
+    const { title, Category, image } = postForm;
     const postDetails = {
       title,
-      category,
-      postImage,
-      description: description,
-      user: props.user,
+      Category,
+      image,
+      content: description,
+      author: props.user.username,
     };
     console.log(postDetails)
     handlePostbtnLabel(true);
@@ -73,24 +73,24 @@ function CreatePost(props) {
 
         {/* Form input for post image */}
         <Form.Group className=" mb-2">
-          <Form.Label htmlFor="postImage">Post Image:</Form.Label>
+          <Form.Label htmlFor="image">Post Image:</Form.Label>
           <Form.Control
             type="file"
             required
-            name="postImage"
+            name="image"
             onChange={changeHandler}
-            id="postImage"
+            id="image"
           />
         </Form.Group>
         {/* Form input for post category */}
         <Form.Group className=" mb-4 mb-md-2">
-          <Form.Label htmlFor="category">Post Category:</Form.Label>
+          <Form.Label htmlFor="Category">Post Category:</Form.Label>
           <Form.Select
             required
-            value={postForm.category}
+            value={postForm.Category}
             onChange={(e) => inputHandler(e)}
-            name="category"
-            id="category"
+            name="Category"
+            id="Category"
           >
             <option>Select the Category</option>
             <option value="Academic Resources">Academic Resources</option>

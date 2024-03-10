@@ -149,7 +149,7 @@
             "author": "Jack",
             "title": "Discover Campus Gems: Hidden Spots for Study, Relaxation, and More",
             "content": "Beyond the well-known landmarks and bustling hubs, our campus is home to hidden gems that offer tranquil study nooks, serene outdoor spaces, and cozy hangout spots. In this blog post, we'll take you on a virtual tour of these lesser-known locales, unveiling the best-kept secrets for finding your perfect study haven, relaxation retreat, or social gathering place. From secluded gardens and quiet reading rooms to intimate cafes and cozy lounges, you'll discover an array of charming spots that cater to your unique needs and preferences. We'll also share insider tips on navigating these hidden gems, such as the best times to visit for optimal serenity or lively ambiance. Get ready to unlock a whole new level of campus exploration and make the most of your college experience.        ",
-            "Category": "campus",
+            "Category": "Campus",
             "image": "https://source.unsplash.com/random?wallpapers",
             "comments": [
                 {
@@ -171,7 +171,7 @@
             "author": "Jack",
             "title": "Campus Safety: Ensuring a Secure and Inclusive Environment",
             "content": "Safety and inclusivity are top priorities at our university, fostering an environment where all students can thrive. In this blog post, we'll delve into the comprehensive measures in place to ensure a secure and inclusive campus experience. From emergency preparedness plans and round-the-clock security personnel to blue-light emergency phones and safety escort services, you'll learn about the multifaceted approach to maintaining a safe campus. We'll also highlight resources for reporting incidents, seeking support, and raising awareness about safety concerns. Additionally, you'll discover initiatives promoting diversity, equity, and inclusion, such as cultural awareness programs, support services for underrepresented groups, and policies against discrimination and harassment. By understanding these safety and inclusivity measures, you'll gain peace of mind and a deeper appreciation for our university's commitment to creating a welcoming and secure environment for all.        ",
-            "Category": "campus",
+            "Category": "Campus",
             "image": "https://source.unsplash.com/random?wallpapers",
             "comments": [
                 {
@@ -193,7 +193,7 @@
             "author": "Jack",
             "title": "Sustainable Living on Campus: Eco-Friendly Initiatives to Embrace",
             "content": "Our university is committed to promoting sustainability and reducing its environmental footprint, fostering a greener and more responsible campus community. In this blog post, we'll explore the various eco-friendly initiatives and programs available for students to contribute to a sustainable future. From comprehensive recycling and composting programs to energy-saving measures and eco-conscious dining options, you'll discover practical ways to reduce your carbon footprint and embrace a more sustainable lifestyle. We'll also highlight student-led environmental organizations, community gardens, and volunteer opportunities that allow you to actively participate in sustainability efforts. Additionally, you'll learn about the university's commitment to sustainable infrastructure, such as LEED-certified buildings, renewable energy sources, and green transportation alternatives. By embracing these eco-friendly initiatives, you'll not only contribute to a healthier planet but also cultivate a sense of environmental stewardship and social responsibility.",
-            "Category": "campus",
+            "Category": "Campus",
             "image": "https://source.unsplash.com/random?wallpapers",
             "comments": [
                 {
@@ -215,7 +215,7 @@
             "author": "Jack",
             "title": "Campus Life Hacks: Insider Tips for Navigating Our University",
             "content": "Navigating a bustling campus can be challenging, but with the right insider knowledge, you can unlock a world of efficiency and convenience. In this blog post, we'll share invaluable campus life hacks to help you navigate our university like a pro. From finding the best food options and secret study spots to navigating the complex of buildings and cutting through campus shortcuts, you'll gain a wealth of time-saving tips and tricks. We'll also reveal the best places to take a break, recharge, and soak in the vibrant campus atmosphere. Additionally, you'll learn about the lesser-known resources and amenities available to enhance your overall campus experience. By mastering these insider hacks, you'll optimize your time, boost your productivity, and fully immerse yourself in the rich tapestry of campus life.",
-            "Category": "campus",
+            "Category": "Campus",
             "image": "https://source.unsplash.com/random?wallpapers",
             "comments": [
                 {
@@ -940,27 +940,32 @@
         {
           "username": "Bob",
           "password": "student1",
-          "role": "Student"
+          "role": "Student", 
+          "status": true
         },
         {
           "username": "Ram",
           "password": "faculty1",
-          "role": "Faculty"
+          "role": "Faculty",
+          "status": false
         },
         {
           "username": "Sita",
           "password": "staff1",
-          "role": "Staff"
+          "role": "Staff",
+          "status": true
         },
         {
           "username": "Alice",
           "password": "moderator1",
-          "role": "Moderator"
+          "role": "Moderator",
+          "status": false
         },
         {
           "username": "administrator1",
           "password": "administrator1",
-          "role": "Administrator"
+          "role": "Administrator",
+          "status": true
         }
       ]
     

@@ -12,12 +12,14 @@ import SignInSide from '././signin';
 import { useState } from 'react';
 import Profile from './Profile';
 import axios from 'axios';
+import UserMan from './UserMan';
 
 
 function Header(props) {
   const { sections, title, setcreatePost, setdata } = props;
   const [signInOpen, setSignInOpen] = React.useState(false);
   const [profileOpen, setProfileOpen] = useState(false)
+  const [UserManOpen, setUserManOpen] = useState(false)
 
   const handleSignInOpen = () => {
     setSignInOpen(true);
@@ -33,6 +35,14 @@ function Header(props) {
 
   const handleProfileClose = () => {
     setProfileOpen(false);
+  };
+
+  const handleUserManOpen = () => {
+    setUserManOpen(true);
+  };
+
+  const handleUserManClose = () => {
+    setUserManOpen(false);
   };
 
   const handlefilter = async (title) => {
@@ -57,7 +67,7 @@ function Header(props) {
         >
           {title}
         </Typography>
-        {props.users != null && props.users.role == "Administrator"? (<Button variant="outlined" size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
+        {props.users != null && props.users.role == "Administrator"? (<Button variant="outlined" size="small" onClick={handleUserManOpen}>
           User Management
         </Button>) : (null)}
         {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
@@ -106,6 +116,11 @@ function Header(props) {
       <Dialog open={profileOpen} onClose={handleProfileClose} fullWidth maxWidth="md">
         <DialogContent className='signin-style'>
           <Profile userdetails={props.users}/>
+        </DialogContent>
+      </Dialog>
+      <Dialog open={UserManOpen} onClose={handleUserManClose} fullWidth maxWidth="md">
+        <DialogContent className='signin-style'>
+          <UserMan users={props.users}/>
         </DialogContent>
       </Dialog>
     </React.Fragment>
