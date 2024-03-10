@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import Blog from './components//Blog.js';
 import './App.css';
+import createPost from './components/createPost.js';
+
+
+import * as React from "react";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Main page">
+      <BrowserRouter>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              // <Blog
+              //   data={data}
+              //   selectedSection={selectedSection}
+              //   setSelectedSection={setSelectedSection}
+              // />
+              <Blog />
+            }
+          />
+          <Route exact path="createPost" Component={createPost} />
+          {/* <Route exact path="postindetail" Component={PostinDetail} /> */}
+        </Routes>
+      </BrowserRouter>
+      {/* <Blog /> */}
     </div>
   );
 }

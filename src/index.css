@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.routeLayout {
+  box-shadow: rgb(211, 227, 243) 0px 8px 24px;
+  border-radius: 10px;
+  border: 0.1px solid rgb(243, 225, 219);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
