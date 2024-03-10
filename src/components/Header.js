@@ -57,24 +57,24 @@ function Header(props) {
         >
           {title}
         </Typography>
-        {props.users != null && props.users.role == "Administrator"? (<Button variant="outlined" size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
+        {props.users != null && props.users.role == "Administrator"? (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
           User Management
         </Button>) : (null)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
           Home
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {setcreatePost(true); props.setoptions(false)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {setcreatePost(true); props.setoptions(false)}}>
           Create Post
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {props.setviewPosts(true)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {props.setviewPosts(true)}}>
           My Posts
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={handleProfileOpen}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={handleProfileOpen}>
           {props.users.username}
         </Button>)}
-        {props.users == null ? ( <Button variant="outlined" size="small" onClick={handleSignInOpen}>
+        {props.users == null ? ( <Button sx={{ marginLeft: '10px' }} variant="outlined" size="small" onClick={handleSignInOpen}>
           Login
-        </Button>) : ( <Button variant="outlined" size="small" onClick={() => {props.setuser(null); setcreatePost(false); props.setoptions(true)}}>
+        </Button>) : ( <Button sx={{ marginLeft: '10px' }} variant="outlined" size="small" onClick={() => {props.setuser(null); setcreatePost(false); props.setoptions(true)}}>
           LogOut
         </Button>)}
        
@@ -95,7 +95,7 @@ function Header(props) {
           // >
           //   {section.title}
           // </Link>
-          <Button style={{ fontSize: 10, color: "black" }}  variant='text' onClick={()=> {handlefilter(section.title)}}>{section.title}</Button>
+          <Button style={{ fontSize: 10, color: "black" }}   onClick={()=> {handlefilter(section.title)}}>{section.title}</Button>
         ))}
       </Toolbar>) : (null)}
       <Dialog open={signInOpen} onClose={handleSignInClose} fullWidth maxWidth="md">

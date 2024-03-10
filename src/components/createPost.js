@@ -1,8 +1,9 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-
 import Description from "./Description";
+
+import "./createPost.css"; // Import the CSS file
 
 function CreatePost(props) {
   // State variables for the post form
@@ -16,7 +17,7 @@ function CreatePost(props) {
   const [postbtnLabel, handlePostbtnLabel] = useState(true);
   const [btnClicked, setBtnClicked] = useState(false);
 
-    // Handle the change of the post image (Event handler for file input)
+  // Handle the change of the post image (Event handler for file input)
   const changeHandler = (e) => {
     handlePostForm({ ...postForm, [e.target.name]: e.target.files[0] });
   };
@@ -46,19 +47,19 @@ function CreatePost(props) {
       description: description,
       user: props.user,
     };
-    console.log(postDetails)
+    console.log(postDetails);
     handlePostbtnLabel(true);
     alert("New post published");
     props.setcreatePost(false);
-    props.setoptions(true)
+    props.setoptions(true);
   };
 
   return (
-    <div className="container routeLayout p-3  createPost">
+    <div className="container routeLayout p-3 createPost">
       {/* The post creation form */}
       <Form onSubmit={handleSubmit}>
         {/* Form input for post title */}
-        <Form.Group className=" mb-4 mb-md-2">
+        <Form.Group className="mb-4 mb-md-2 title-group">
           <Form.Label htmlFor="title">Post Title:</Form.Label>
           <Form.Control
             required
@@ -72,7 +73,7 @@ function CreatePost(props) {
         </Form.Group>
 
         {/* Form input for post image */}
-        <Form.Group className=" mb-2">
+        <Form.Group className="mb-2 ">
           <Form.Label htmlFor="postImage">Post Image:</Form.Label>
           <Form.Control
             type="file"
@@ -82,8 +83,9 @@ function CreatePost(props) {
             id="postImage"
           />
         </Form.Group>
+
         {/* Form input for post category */}
-        <Form.Group className=" mb-4 mb-md-2">
+        <Form.Group className="mb-4 mb-md-2">
           <Form.Label htmlFor="category">Post Category:</Form.Label>
           <Form.Select
             required
@@ -104,18 +106,18 @@ function CreatePost(props) {
             <option value="Technology">Technology</option>
             <option value="Travel">Travel</option>
             <option value="Alumni">Alumni</option>
-          </Form.Select>
+         </Form.Select>
         </Form.Group>
 
         {/* Form input for post description */}
-        <Form.Group className=" mb-2">
+        <Form.Group className="mb-2">
           <Form.Label>Post Description:</Form.Label>
           <Description setDescription={setDescription} />
         </Form.Group>
 
-          <Button type="submit" disabled={btnClicked}>
-            {postbtnLabel ? "Publish" : "Please Wait While publishing..."}
-          </Button>
+        <Button type="submit" disabled={btnClicked}>
+          {postbtnLabel ? "Publish" : "Please Wait While publishing..."}
+        </Button>
       </Form>
     </div>
   );
