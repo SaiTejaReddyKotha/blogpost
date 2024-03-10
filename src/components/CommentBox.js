@@ -5,8 +5,10 @@ const CommentBox = (props) => {
     return (
         <div>
             <Grid item xs={12} md={6}>
+
                 <Card sx={{ display: 'flex' }}>
-                <CardContent sx={{ flex: 1 }}>
+                <CardContent sx={{ flex: 1, width:'100%'}}>
+                    
                     <Typography component="h2" variant="h5">
                         {props.author}
                     </Typography>

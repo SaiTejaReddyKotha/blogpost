@@ -1,972 +1,939 @@
 {
-    "posts": [
+  "posts": [
+    {
+      "id": "2",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Demystifying Research: A Comprehensive Guide to Library Resources",
+      "content": "Our university's libraries are a treasure trove of knowledge, housing a vast array of resources to support your academic pursuits. In this in-depth blog post, we'll take you on a guided tour through the library's extensive offerings. You'll learn how to navigate the online databases, access scholarly journals and e-books, and leverage interlibrary loan services to obtain materials from other institutions. We'll also provide tips on utilizing the print collections, seeking research assistance from librarians, and making the most of the library's study spaces and technologically-equipped facilities. By the end, you'll be equipped with the skills to conduct thorough research and unlock the full potential of our library resources.",
+      "Category": "Academic Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [],
+      "likes": 2,
+      "dislikes": 0
+    },
+    {
+      "id": "3",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Ace Your Papers: The Writing Center's Secret to Success",
+      "content": "Effective communication is a critical skill, and our university's Writing Center is dedicated to helping you excel in academic writing. This blog post will unveil the invaluable services offered by the Writing Center, from one-on-one consultations with experienced writing tutors to group workshops on various writing-related topics. You'll learn how to seek feedback on your drafts, refine your writing style, and master the intricacies of citation styles and formatting. We'll also explore the online resources available, including writing guides, sample papers, and self-paced modules. Whether you're struggling with a specific writing assignment or seeking to enhance your overall writing proficiency, the Writing Center is your secret weapon for achieving writing excellence.",
+      "Category": "Academic Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "4",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Supplemental Instruction: The Hidden Gem for Academic Excellence",
+      "content": "Supplemental Instruction (SI) is a powerful academic support program that can significantly impact your success in challenging courses. In this blog post, we'll dive into the benefits of SI and how it can complement your regular coursework. You'll learn about the peer-led study sessions facilitated by trained SI leaders, where you can engage in collaborative learning, reinforce key concepts, and develop effective study strategies. We'll also explore the additional resources available through the SI program, such as review sessions, practice exams, and study materials tailored to specific courses. By attending SI sessions, you'll gain a deeper understanding of course material, develop critical thinking skills, and foster a supportive learning community with your peers.",
+      "Category": "Academic Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
         {
-            "id": 1,
-            "author": "Sai",
-            "role": "Student",
-            "title": "Unlock Your Study Potential: Top 5 Academic Resources on Campus",
-            "content": "The path to academic success is paved with the right resources. In this comprehensive guide, we'll explore the five essential academic resources available on our campus. From the cutting-edge library facilities with vast digital and print collections to the dedicated writing centers staffed by expert tutors, you'll discover invaluable tools to elevate your research, writing, and study skills. We'll also delve into subject-specific tutoring services, supplemental instruction programs, and online academic support, equipping you with a holistic toolkit to maximize your learning experience and achieve your academic goals.",
-            "Category": "Academic Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 2,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Demystifying Research: A Comprehensive Guide to Library Resources",
-            "content": "Our university's libraries are a treasure trove of knowledge, housing a vast array of resources to support your academic pursuits. In this in-depth blog post, we'll take you on a guided tour through the library's extensive offerings. You'll learn how to navigate the online databases, access scholarly journals and e-books, and leverage interlibrary loan services to obtain materials from other institutions. We'll also provide tips on utilizing the print collections, seeking research assistance from librarians, and making the most of the library's study spaces and technologically-equipped facilities. By the end, you'll be equipped with the skills to conduct thorough research and unlock the full potential of our library resources.",
-            "Category": "Academic Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [],
-            "likes": 2,
-            "dislikes": 0
-        },
-        {
-            "id": 3,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Ace Your Papers: The Writing Center's Secret to Success",
-            "content": "Effective communication is a critical skill, and our university's Writing Center is dedicated to helping you excel in academic writing. This blog post will unveil the invaluable services offered by the Writing Center, from one-on-one consultations with experienced writing tutors to group workshops on various writing-related topics. You'll learn how to seek feedback on your drafts, refine your writing style, and master the intricacies of citation styles and formatting. We'll also explore the online resources available, including writing guides, sample papers, and self-paced modules. Whether you're struggling with a specific writing assignment or seeking to enhance your overall writing proficiency, the Writing Center is your secret weapon for achieving writing excellence.",
-            "Category": "Academic Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 4,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Supplemental Instruction: The Hidden Gem for Academic Excellence",
-            "content": "Supplemental Instruction (SI) is a powerful academic support program that can significantly impact your success in challenging courses. In this blog post, we'll dive into the benefits of SI and how it can complement your regular coursework. You'll learn about the peer-led study sessions facilitated by trained SI leaders, where you can engage in collaborative learning, reinforce key concepts, and develop effective study strategies. We'll also explore the additional resources available through the SI program, such as review sessions, practice exams, and study materials tailored to specific courses. By attending SI sessions, you'll gain a deeper understanding of course material, develop critical thinking skills, and foster a supportive learning community with your peers.",
-            "Category": "Academic Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 5,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Crafting Your Career Path: The Ultimate Guide to Career Services",
-            "content": "Navigating the professional world can be daunting, but our university's Career Services is here to guide you every step of the way. In this comprehensive guide, we'll explore the extensive range of resources and services offered to help you kickstart your career journey. From one-on-one career counseling and personalized resume reviews to mock interviews and job search strategies, you'll learn how to showcase your skills and stand out in a competitive job market. We'll also introduce you to the career fairs, networking events, and employer information sessions hosted on campus, providing invaluable opportunities to connect with potential employers and gain industry insights. Additionally, you'll discover the online job portals, career exploration tools, and professional development workshops available to help you refine your goals and develop a clear career path.",
-            "Category": "Career Services",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 6,
-            "author": "Jack",
-            "title": "From Campus to Career: Transitioning with Confidence",
-            "content": "As graduation approaches, the excitement of embarking on a new professional journey can be accompanied by uncertainty. In this blog post, we'll explore the comprehensive range of resources and support provided by our Career Services office to help you navigate the transition from student life to the working world with confidence. You'll learn about job search strategies tailored to your field, including where to find job postings, how to craft compelling applications, and how to leverage your campus experiences and skills effectively. We'll also cover essential topics such as salary negotiation, understanding employee benefits, and workplace etiquette. Additionally, you'll gain insights on career advancement, continuous learning opportunities, and maintaining a healthy work-life balance. By utilizing these resources, you'll be well-equipped to make a seamless and successful transition into your chosen career path.",
-            "Category": "Career Services",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 7,
-            "author": "Jack",
-            "title": "Networking like a Pro: Career Services' Guide to Building Connections",
-            "content": "In today's competitive job market, networking is a critical skill that can unlock numerous professional opportunities. This blog post will equip you with the tools and strategies to build a robust professional network with the support of our Career Services team. You'll learn how to leverage alumni connections, attend industry events, and effectively communicate your personal brand. We'll also explore the art of informational interviews, providing insights on how to connect with professionals in your desired field and gain valuable career advice. Additionally, you'll discover tips on maintaining and nurturing your network, ensuring that you have a strong support system as you navigate your career path. By mastering the art of networking, you'll open doors to potential job leads, mentorship opportunities, and invaluable industry insights.",
-            "Category": "Career Services",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 8,
-            "author": "Jack",
-            "title": "Internship Insider: Unlocking Invaluable Experiences with Career Services",
-            "content": "Internships are a crucial stepping stone in your professional development, offering hands-on experience and industry connections. In this blog post, we'll provide an insider's guide to securing rewarding internship opportunities through our university's Career Services. You'll learn how to navigate the internship search process, from identifying suitable openings to crafting compelling applications and resumes that highlight your unique strengths. We'll also share tips on preparing for interviews, negotiating offers, and making the most of your internship experience. Additionally, you'll discover the exclusive internship programs, networking events, and employer partnerships facilitated by Career Services, opening doors to invaluable experiences that can shape your future career trajectory.",
-            "Category": "Career Services",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 9,
-            "author": "Jack",
-            "title": "Discover Campus Gems: Hidden Spots for Study, Relaxation, and More",
-            "content": "Beyond the well-known landmarks and bustling hubs, our campus is home to hidden gems that offer tranquil study nooks, serene outdoor spaces, and cozy hangout spots. In this blog post, we'll take you on a virtual tour of these lesser-known locales, unveiling the best-kept secrets for finding your perfect study haven, relaxation retreat, or social gathering place. From secluded gardens and quiet reading rooms to intimate cafes and cozy lounges, you'll discover an array of charming spots that cater to your unique needs and preferences. We'll also share insider tips on navigating these hidden gems, such as the best times to visit for optimal serenity or lively ambiance. Get ready to unlock a whole new level of campus exploration and make the most of your college experience.        ",
-            "Category": "Campus",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 10,
-            "author": "Jack",
-            "title": "Campus Safety: Ensuring a Secure and Inclusive Environment",
-            "content": "Safety and inclusivity are top priorities at our university, fostering an environment where all students can thrive. In this blog post, we'll delve into the comprehensive measures in place to ensure a secure and inclusive campus experience. From emergency preparedness plans and round-the-clock security personnel to blue-light emergency phones and safety escort services, you'll learn about the multifaceted approach to maintaining a safe campus. We'll also highlight resources for reporting incidents, seeking support, and raising awareness about safety concerns. Additionally, you'll discover initiatives promoting diversity, equity, and inclusion, such as cultural awareness programs, support services for underrepresented groups, and policies against discrimination and harassment. By understanding these safety and inclusivity measures, you'll gain peace of mind and a deeper appreciation for our university's commitment to creating a welcoming and secure environment for all.        ",
-            "Category": "Campus",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 11,
-            "author": "Jack",
-            "title": "Sustainable Living on Campus: Eco-Friendly Initiatives to Embrace",
-            "content": "Our university is committed to promoting sustainability and reducing its environmental footprint, fostering a greener and more responsible campus community. In this blog post, we'll explore the various eco-friendly initiatives and programs available for students to contribute to a sustainable future. From comprehensive recycling and composting programs to energy-saving measures and eco-conscious dining options, you'll discover practical ways to reduce your carbon footprint and embrace a more sustainable lifestyle. We'll also highlight student-led environmental organizations, community gardens, and volunteer opportunities that allow you to actively participate in sustainability efforts. Additionally, you'll learn about the university's commitment to sustainable infrastructure, such as LEED-certified buildings, renewable energy sources, and green transportation alternatives. By embracing these eco-friendly initiatives, you'll not only contribute to a healthier planet but also cultivate a sense of environmental stewardship and social responsibility.",
-            "Category": "Campus",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 12,
-            "author": "Jack",
-            "title": "Campus Life Hacks: Insider Tips for Navigating Our University",
-            "content": "Navigating a bustling campus can be challenging, but with the right insider knowledge, you can unlock a world of efficiency and convenience. In this blog post, we'll share invaluable campus life hacks to help you navigate our university like a pro. From finding the best food options and secret study spots to navigating the complex of buildings and cutting through campus shortcuts, you'll gain a wealth of time-saving tips and tricks. We'll also reveal the best places to take a break, recharge, and soak in the vibrant campus atmosphere. Additionally, you'll learn about the lesser-known resources and amenities available to enhance your overall campus experience. By mastering these insider hacks, you'll optimize your time, boost your productivity, and fully immerse yourself in the rich tapestry of campus life.",
-            "Category": "Campus",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 13,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Preserving Traditions: Exploring the Rich History and Heritage of Our University",
-            "content": "Our university has a storied past and a rich heritage that have shaped its identity and traditions over the centuries. In this blog post, we'll embark on a journey through time, exploring the historical landmarks, cultural artifacts, and enduring customs that have become an integral part of our institution's legacy. From architectural marvels steeped in history to time-honored ceremonies and rituals, you'll gain a deeper appreciation for the roots that have nourished our university's growth and evolution. We'll also introduce you to the dedicated archives and museums preserving our institutional history, offering a window into the lives and achievements of those who have left an indelible mark on our community. Additionally, you'll learn about the efforts to honor and celebrate our indigenous heritage, fostering a deeper understanding and respect for the land and cultures that have thrived here for generations. By immersing yourself in our university's history and heritage, you'll not only gain a sense of pride and connection but also cultivate a reverence for the traditions that have withstood the test of time.",
-            "Category": "Culture",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 14,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Bridging Cultures: Student Organizations Fostering Global Connections        ",
-            "content": "In our increasingly interconnected world, fostering cross-cultural understanding and global connections is more important than ever. At our university, a diverse array of student organizations is dedicated to promoting cultural exchange, embracing diversity, and building bridges between communities. In this blog post, we'll introduce you to these student-led initiatives, each with its unique mission and approach to fostering global connections. From cultural clubs celebrating heritage and traditions to organizations focused on international development and social justice, you'll discover a wealth of opportunities to engage with different cultures, participate in thought-provoking discussions, and contribute to meaningful causes. We'll also highlight their various events, such as cultural festivals, guest speaker series, and community outreach programs, providing platforms for cultural immersion and intercultural dialogue. By getting involved with these student organizations, you'll not only expand your global perspective but also cultivate invaluable skills in teamwork, leadership, and cross-cultural communication – essential for success in our increasingly globalized world.",
-            "Category": "Culture",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 15,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Art Unleashed: Exploring the Creative Scene on Campus",
-            "content": "Our campus is a thriving hub for artistic expression, where creativity takes center stage in a multitude of forms. In this blog post, we'll delve into the vibrant arts scene that enriches our university experience. From student-run galleries showcasing cutting-edge contemporary works to captivating performances by renowned artists and ensembles, you'll discover a diverse array of artistic outlets to explore and appreciate. We'll introduce you to the various art studios, theaters, and performance spaces that serve as creative playgrounds for budding artists and art enthusiasts alike. Additionally, you'll learn about art classes, workshops, and extracurricular opportunities that allow you to nurture your own artistic talents and explore new creative avenues. Whether you're a seasoned artist or simply appreciate the beauty of artistic expression, this blog post will immerse you in the vibrant creative scene that thrives on our campus.",
-            "Category": "Culture",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 16,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Embracing Diversity: A Celebration of Cultural Events on Campus        ",
-            "content": "Our university is a vibrant tapestry of cultures, traditions, and perspectives, and we take pride in celebrating this rich diversity through a multitude of cultural events, festivals, and celebrations. In this blog post, we'll take you on a journey through the captivating kaleidoscope of cultural experiences that unfold on our campus throughout the academic year. From vibrant festivals showcasing traditional music, dance, and culinary delights to thought-provoking lectures and discussions exploring global issues, you'll discover a wealth of opportunities to broaden your horizons and immerse yourself in different cultural narratives. We'll also highlight student-led cultural organizations and their initiatives, inviting you to actively participate in fostering cross-cultural understanding and appreciation. Get ready to embark on a journey of cultural discovery that will enrich your perspective and foster a deeper sense of global citizenship.",
-            "Category": "Culture",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 17,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Beyond Campus: Exploring Local Community Resources",
-            "content": "While our campus offers a wealth of resources and opportunities, the surrounding local community is equally rich with invaluable resources to enhance your college experience. In this blog post, we'll venture beyond the campus boundaries to explore the diverse array of resources available in the local area. From vibrant community centers and volunteering opportunities that allow you to give back to organizations dedicated to supporting small businesses and fostering economic growth, you'll discover ways to engage with and contribute to the local community. We'll also highlight cultural attractions, outdoor recreation spots, and unique local businesses that offer enriching experiences and a taste of the local flavor. By tapping into these community resources, you'll not only broaden your horizons but also forge meaningful connections and develop a deeper appreciation for the community that surrounds our university.",
-            "Category": "Local Community Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 18,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": "Town and Gown: Fostering Positive University-Community Relations",
-            "content": " Our university and the surrounding local community share a symbiotic relationship, each benefiting from the other's presence and success. In this blog post, we'll explore the various initiatives and programs that strengthen this 'town and gown' bond, fostering positive relations and mutual understanding. From community outreach efforts and service-learning projects that address local needs to town-gown partnerships promoting economic development and cultural exchange, you'll discover the multifaceted ways in which our university engages with and supports the local community. We'll also highlight joint efforts in areas such as sustainability, public safety, and urban planning, showcasing our shared commitment to creating a thriving and resilient community. Additionally, you'll learn about opportunities for students to participate in local governance and decision-making processes, enabling them to be active stakeholders in shaping the community's future. By fostering strong town and gown relations, we not only contribute to the well-being of our local area but also provide invaluable learning experiences for our students, preparing them to be responsible and engaged citizens.",
-            "Category": "Local Community Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 19,
-            "author": "Ram",
-            "role": "Faculty",
-            "title": " Giving Back: Volunteering Opportunities in the Local Community",
-            "content": " At our university, we believe in fostering a spirit of service and giving back to the local community that has embraced us. In this blog post, we'll explore the various volunteering opportunities available through local organizations and initiatives, each offering a unique way to make a positive impact. From community gardens and food banks addressing food insecurity to tutoring programs and mentorship initiatives supporting underprivileged youth, you'll discover a range of causes to align with your values and passions. We'll also highlight environmental conservation efforts, animal shelters, and healthcare organizations where you can contribute your time and skills. Additionally, you'll learn about the benefits of volunteering, such as developing leadership and problem-solving abilities, gaining practical experience, and forging meaningful connections within the community. By engaging in these volunteering opportunities, you'll not only contribute to the betterment of society but also cultivate a sense of purpose and personal growth that will enrich your college experience.",
-            "Category": "Local Community Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 20,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Local Gems: Hidden Treasures in Our College Town",
-            "content": "Beyond the well-known attractions and popular hotspots, our college town is brimming with hidden gems waiting to be discovered. In this blog post, we'll take you on a virtual tour of the lesser-known local treasures, unveiling the best-kept secrets that only true insiders know about. From quirky independent shops and cozy cafes with unparalleled ambiance to scenic hiking trails and secret outdoor havens, you'll discover a side of our town that few get to experience. We'll also share insider tips on the best times to visit these hidden gems, as well as recommendations for unique local events and festivals that celebrate the town's rich culture and traditions. Whether you're seeking a memorable culinary experience, a serene escape from the hustle and bustle, or an off-the-beaten-path adventure, this blog post will equip you with the knowledge to uncover the hidden treasures that make our college town truly special.",
-            "Category": "Local Community Resources",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 21,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Unleash Your Social Side: A Guide to Campus Life Events ",
-            "content": "College life is about more than just academics – it's an opportunity to build lasting connections, forge meaningful relationships, and create cherished memories. In this blog post, we'll take you on a whirlwind tour of the diverse array of social events and activities that keep our campus buzzing with energy year-round. From club meetings and student organization events that cater to a wide range of interests to captivating concerts, comedy shows, and cultural performances, you'll discover endless opportunities to.",
-            "Category": "Social",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 22,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Finding Your Tribe: Joining Student Organizations on Campus",
-            "content": "One of the best ways to build a social circle and find your community is by joining student organizations. Explore the wide range of clubs, associations, and interest groups available on campus, and learn how to get involved based on your passions and interests.",
-            "Category": "Social",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 23,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Dorm Life Diaries: Building Friendships and Creating Memories",
-            "content": "Living in the dorms is an integral part of the college experience. This blog post will offer insights and tips for navigating dorm life, building lasting friendships, and creating cherished memories with your fellow residents.",
-            "Category": "Social",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 24,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Virtual Connections: Staying Social in the Digital Age",
-            "content": "In today's world, social connections extend beyond physical boundaries. Discover how our university leverages digital platforms and virtual spaces to foster a sense of community, facilitate online events, and keep students connected, no matter where they are.",
-            "Category": "Social",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 25,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Intramural Insider: Building Community Through Friendly Competition",
-            "content": "Looking for a fun and inclusive way to stay active, meet new people, and foster a sense of camaraderie? Our university's intramural sports program offers just that – and more! In this blog post, we'll provide an insider's guide to the world of intramural sports, where friendly competition meets a vibrant community spirit. You'll discover the diverse array of sports leagues available, from classic team sports like basketball and soccer to quirky and unique options like quidditch and bubble soccer. We'll walk you through the process of forming a team, registering for leagues, and navigating the intramural sports calendar. Additionally, you'll gain insights into the various skill levels and divisions, ensuring a fair and enjoyable experience for players of all abilities. Beyond the games themselves, we'll highlight the social events, tournaments, and opportunities to connect with fellow sports enthusiasts, fostering a supportive and inclusive environment that extends beyond the playing field.",
-            "Category": "Sports",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 126,
-            "author": "sita",
-            "role": "Staff",
-            "title": "Fitness Fanatics: On-Campus Recreational Facilities and Programs",
-            "content": "Maintaining an active and healthy lifestyle is essential for overall well-being, and our university offers a wealth of resources to support your fitness goals. In this blog post, we'll take you on a virtual tour of the state-of-the-art recreational facilities and fitness programs available on campus. From fully-equipped gyms boasting the latest equipment and weight rooms to indoor sports courts, swimming pools, and rock-climbing walls, you'll discover an array of amenities to cater to your preferred workout routine. We'll also introduce you to the diverse range of group fitness classes, from high-intensity interval training to yoga and dance sessions, led by certified instructors. Additionally, you'll learn about outdoor adventures and recreational clubs that allow you to explore the great outdoors while staying active. Whether you're a seasoned athlete or simply looking to incorporate more movement into your day, this blog post will equip you with the knowledge to make the most of our campus's fitness offerings.",
-            "Category": "Sports",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 27,
-            "author": "Bob",
-            "role": "Student",
-            "title": "More Than Just a Game: The Life Lessons of Student-Athletes",
-            "content": "Being a student-athlete is a unique and challenging experience that extends far beyond the playing field. In this blog post, we'll go behind the scenes and hear directly from our university's student-athletes as they share their inspiring stories, triumphs, and the invaluable life lessons they've gained through their athletic pursuits. From time management and discipline to teamwork and resilience, you'll discover the valuable skills that these exceptional individuals have honed through their dedication to both academics and athletics. We'll explore the sacrifices they've made, the obstacles they've overcome, and the unwavering determination that drives them to excel in all aspects of their lives. Additionally, you'll gain insights into the support systems and resources available to student-athletes, ensuring they have the tools to thrive both on and off the field.",
-            "Category": "Sports",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 28,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Catch the Spirit: A Guide to University Sports and Athletics",
-            "content": "Get ready to experience the electrifying energy of our university's sports and athletics scene! In this comprehensive guide, we'll introduce you to the various athletic programs, teams, and events that ignite school spirit on campus. From the high-octane atmosphere of our acclaimed Division I teams to the fierce competition of club and intramural sports, you'll discover a vibrant community of dedicated athletes and passionate fans. We'll provide insider tips on scoring tickets, navigating game-day festivities, and joining the raucous student sections that fuel the excitement. Additionally, we'll highlight the state-of-the-art athletic facilities, training centers, and recreational spaces that cater to athletes and fitness enthusiasts alike. Whether you're a die-hard fan or simply seeking an adrenaline-fueled experience, this blog post will immerse you in the thrilling world of our university's sports and athletics.",
-            "Category": "Sports",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 29,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Nourishing Body and Mind: Exploring Healthy Dining Options on Campus",
-            "content": "Maintaining a nutritious diet is crucial for overall health, academic performance, and personal well-being. In this blog post, we'll take you on a mouthwatering journey through the various healthy dining options available on our campus. From plant-based and vegetarian fare to allergen-friendly and locally sourced offerings, you'll discover a diverse array of culinary choices that cater to different dietary needs and preferences. We'll introduce you to the dining halls, cafes, and eateries that prioritize fresh, wholesome ingredients and provide detailed nutritional information to support mindful eating habits. Additionally, you'll learn about campus initiatives like community gardens, farmers' markets, and sustainable food programs that promote eco-friendly and locally-sourced produce. Beyond just nourishing your body, we'll explore the connection between nutrition and cognitive function, highlighting brain-boosting foods and dining options that can support your academic success.",
-            "Category": "Health and Wellness",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 30,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Mindfulness Matters: Incorporating Mindful Practices into Student Life",
-            "content": "In today's fast-paced world, cultivating mindfulness and present-moment awareness can have a profound impact on your overall well-being. In this blog post, we'll explore the numerous mindfulness resources and programs available on our campus, designed to help you integrate mindful practices into your daily routine. From guided meditation sessions and breathwork workshops to yoga classes and mindful walking groups, you'll discover a variety of accessible avenues to develop greater self-awareness and inner peace. We'll also introduce you to mindfulness-based stress reduction techniques, proven to alleviate anxiety and enhance emotional resilience. Additionally, we'll highlight initiatives that promote mindful living on campus, such as quiet spaces for reflection, mindfulness-themed events, and opportunities to connect with like-minded individuals on their mindfulness journeys. By embracing mindfulness, you'll not only reduce stress and improve focus but also cultivate a deeper sense of presence, gratitude, and overall fulfillment during your college experience.",
-            "Category": "Health and Wellness",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 31,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Stress Less: Strategies for Coping with Academic Pressures",
-            "content": "College life can be demanding, and the pressures of academic rigor can often lead to heightened stress levels. In this blog post, we'll equip you with effective strategies for managing stress and cultivating a healthy mindset amidst the demands of your studies. We'll explore tried-and-true techniques such as time management, prioritization, and healthy sleep habits, as well as introduce you to mindfulness practices, breathing exercises, and relaxation techniques that can help you stay centered and focused. Additionally, we'll share insights from mental health professionals on recognizing the signs of burnout and seeking support when needed. You'll also discover campus resources like counseling services, stress-relief workshops, and quiet spaces designed to promote relaxation and rejuvenation. By implementing these coping strategies, you'll not only alleviate academic pressures but also foster a more balanced and fulfilling college experience.",
-            "Category": "Health and Wellness",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 32,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Prioritizing Your Well-Being: On-Campus Health and Wellness Resources",
-            "content": "Your health and well-being are of utmost importance at our university, and we offer a comprehensive range of resources to support your journey towards holistic wellness. In this blog post, we'll explore the various health and wellness services available on campus, from state-of-the-art medical facilities and counseling centers to fitness and nutrition programs. You'll learn about the dedicated team of healthcare professionals, counselors, and wellness experts who are committed to providing high-quality care and guidance. We'll introduce you to the student health center, where you can access routine check-ups, immunizations, and specialized care for a variety of health concerns. Additionally, we'll delve into the mental health resources, including individual and group counseling sessions, support groups, and workshops focused on stress management, mindfulness, and emotional well-being. Beyond physical and mental health, we'll highlight initiatives promoting overall wellness, such as healthy dining options, wellness coaching, and programs that foster a balanced lifestyle.",
-            "Category": "Health and Wellness",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 33,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Cutting-Edge Tech: Exploring Innovative Resources on Campus",
-            "content": "Our university is at the forefront of technological advancements, providing students with access to cutting-edge resources that foster innovation and prepare them for the future. In this blog post, we'll take you on a virtual tour of the state-of-the-art facilities and innovative technologies available on campus. From high-performance computing labs and 3D printing studios to virtual and augmented reality experiences, you'll discover a world of possibilities for hands-on learning, research, and exploration. We'll introduce you to the maker spaces and fabrication labs where you can bring your creative ideas to life, as well as the cutting-edge research facilities pushing the boundaries of science and technology. Additionally, you'll learn about the university's partnerships with leading tech companies, providing access to industry-standard tools, software, and training opportunities. Whether you're a budding entrepreneur, a tech enthusiast, or simply curious about the latest innovations, this blog post will immerse you in the vibrant technological ecosystem on our campus.",
-            "Category": "Technology",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 34,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Coding Confidence: Programming Resources for Student Developers",
-            "content": "In today's digital age, coding and programming skills are invaluable assets that can open doors to a wide range of career opportunities. At our university, we understand the importance of empowering students to become proficient coders and developers. In this blog post, we'll explore the comprehensive programming resources available to support your coding journey. From introductory coding workshops and bootcamps to advanced coding clubs and hackathons, you'll discover a wealth of opportunities to build your skills and gain hands-on experience. We'll introduce you to online learning platforms, coding tutorials, and dedicated coding spaces where you can collaborate with peers and receive guidance from experienced mentors. Additionally, we'll highlight coding-related events, guest lectures, and industry partnerships that provide insights into the latest programming trends and job prospects. Whether you're a complete beginner or an experienced coder, this blog post will equip you with the tools and support to elevate your coding confidence and prepare for success in the tech industry.",
-            "Category": "Technology",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 35,
-            "author": "Bob",
-            "role": "Student",
-            "title": "Staying Cyber-Safe: Tips for Digital Security on Campus",
-            "content": "In our increasingly digitalized world, protecting your personal information and maintaining online security is of paramount importance. In this blog post, we'll provide you with essential tips and best practices to stay cyber-safe while on campus. From securing your devices and accounts with strong passwords and multi-factor authentication to recognizing phishing attempts and malware threats, you'll learn how to navigate the digital landscape with confidence. We'll also introduce you to the university's cybersecurity resources, including workshops on data privacy, ethical hacking, and online safety. Additionally, you'll gain insights into the latest cybersecurity trends and the measures our institution takes to safeguard its digital infrastructure. By implementing these cyber-safety measures, you'll not only protect your personal data but also contribute to maintaining a secure and trusted online environment for the entire campus community.",
-            "Category": "Technology",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 36,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Tech for Good: Student Innovations Driving Positive Change",
-            "content": "At our university, we take pride in fostering a community of student innovators and entrepreneurs who are harnessing the power of technology to drive positive change. In this blog post, we'll showcase the inspiring student-led projects, startups, and initiatives that are making a meaningful impact across various sectors and addressing social and environmental challenges. From cutting-edge health tech solutions and sustainable innovations to educational technologies and social impact ventures, you'll discover how our students are pushing the boundaries of what's possible. We'll introduce you to the entrepreneurial support systems, incubators, and funding opportunities available on campus, empowering students to turn their ideas into reality. Additionally, you'll gain insights from successful student entrepreneurs, who will share their journeys, lessons learned, and advice for those passionate about using technology as a force for good. Get ready to be inspired by the innovative solutions and socially conscious mindset of our university's tech-savvy changemakers.",
-            "Category": "Technology",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 37,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Wanderlust on a Budget: Affordable Travel Opportunities for Students",
-            "content": "Exploring new places and immersing yourself in different cultures is an invaluable part of the college experience, but it doesn't have to break the bank. In this blog post, we'll reveal a wealth of affordable travel opportunities available to students, allowing you to indulge your wanderlust without breaking the bank. From budget-friendly study abroad programs and international service trips to weekend getaways and road trips within reach, you'll discover a world of possibilities for expanding your horizons. We'll share insider tips on finding deals, securing discounts, and maximizing your travel budget, ensuring that your adventures are both enriching and cost-effective. Additionally, we'll introduce you to student travel clubs, house-sitting opportunities, and work exchange programs that can further reduce your expenses while providing unique cultural experiences. Whether you're dreaming of exploring a new continent or simply seeking a nearby escape, this blog post will equip you with the knowledge and resources to make affordable travel a reality.",
-            "Category": "Travel",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 38,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Passport to Adventure: Studying Abroad and Cultural Immersion",
-            "content": "Studying abroad is a transformative experience that broadens horizons, fosters personal growth, and cultivates a global perspective. In this blog post, we'll dive into the world of international education and explore the diverse range of study abroad programs offered by our university. From semester-long immersions to short-term faculty-led trips, you'll discover opportunities to immerse yourself in new cultures, learn foreign languages, and gain invaluable life experiences. We'll guide you through the application process, provide insights into choosing the right program for your academic and personal goals, and share tips for navigating the logistical aspects of international travel. Additionally, you'll learn about the support systems in place to ensure a smooth transition, from pre-departure orientations to on-site resources and cultural integration programs. By embarking on a study abroad adventure, you'll not only expand your academic horizons but also develop cross-cultural communication skills, adaptability, and a deeper appreciation for global diversity – invaluable assets in today's interconnected world.",
-            "Category": "Travel",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 39,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Off the Beaten Path: Exploring Local Hidden Gems",
-            "content": "While international travel offers the allure of distant lands and new adventures, there is also a wealth of hidden gems to uncover right in your local area. In this blog post, we'll take you off the beaten path and reveal the best-kept secrets and lesser-known treasures that lie within a stone's throw of our campus. From charming small towns brimming with historical charm and quirky attractions to scenic hiking trails and outdoor havens that offer respite from the hustle and bustle, you'll discover a side of your local surroundings that few get to experience. We'll share insider tips on finding these hidden gems, as well as recommendations for unique local events, festivals, and culinary delights that showcase the rich culture and traditions of our region. Whether you're seeking a day trip adventure or a weekend escape, this blog post will inspire you to explore the hidden wonders right in your backyard.",
-            "Category": "Travel",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 40,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Travel Tips from Globetrotting Alumni: Insights for the Savvy Student Traveler",
-            "content": "Our alumni have ventured far and wide, accumulating a wealth of travel wisdom and invaluable insights along the way. In this blog post, we'll tap into their globetrotting experiences and share their best travel tips and advice for the savvy student traveler. From packing efficiently and navigating new cultures to staying safe on the road and making the most of your travel budget, you'll gain insider knowledge that can only come from those who have walked the path before you. We'll introduce you to alumni who have embarked on solo adventures, participated in voluntourism initiatives, and even started their own travel businesses, providing a diverse array of perspectives and lessons learned. Additionally, you'll discover resources for connecting with our global alumni network, opening doors to local connections, insider recommendations, and potential travel buddies no matter where your adventures take you. Get ready to be inspired and empowered to explore the world with confidence and savvy.",
-            "Category": "Travel",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 41,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Alumni Spotlights: Inspirational Stories of Success and Impact",
-            "content": "Our alumni have gone on to achieve remarkable success across various industries and sectors, making their mark on the world in inspiring ways. In this blog post series, we'll shine a spotlight on the stories of these extraordinary individuals, celebrating their achievements and the lasting impact they've made on their communities and beyond. From trailblazing entrepreneurs and industry leaders to renowned artists, scientists, and changemakers, you'll gain insights into the journeys that shaped their success. We'll delve into their motivations, challenges overcome, and the pivotal moments that propelled them towards their goals. Additionally, you'll learn about the ways in which our alumni are giving back, whether through mentorship programs, philanthropic initiatives, or using their platforms to inspire and uplift others. These inspiring stories will not only serve as a testament to the power of perseverance and determination but will also provide valuable lessons and guidance for your own path to success.",
-            "Category": "Alumni",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 42,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Giving Back: How Alumni Support Their Alma Mater",
-            "content": "Our alumni play a vital role in supporting the growth and development of our university, ensuring that future generations of students have access to the same opportunities and resources that helped shape their own success. In this blog post, we'll explore the various ways in which alumni give back to their alma mater, contributing to the continued excellence of our institution. From establishing scholarship funds and endowments to supporting academic programs and research initiatives, you'll discover the profound impact of alumni generosity. We'll also highlight the invaluable contributions of alumni mentors, who share their expertise and guidance through guest lectures, career workshops, and one-on-one mentorship opportunities. Additionally, you'll learn about the robust alumni network and its role in fostering connections, facilitating networking events, and creating a strong sense of community that extends far beyond campus boundaries. By giving back, our alumni not only honor their roots but also invest in the future of our university and its students.",
-            "Category": "Alumni",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
-        },
-        {
-            "id": 43,
-            "author": "Alice",
-            "role": "Moderator",
-            "title": "Alumni Wisdom: Career Advice from Seasoned Professionals",
-            "content": "As you prepare to embark on your professional journey, who better to seek aguidance from than our accomplished alumni who have navigated the complexities of the working world? In this blog post, we'll tap into the collective wisdom of our seasoned alumni professionals, offering invaluable insights and career advice to help you navigate the ever-changing job landscape.",
-            "Category": "Alumni",
-            "image": "https://source.unsplash.com/random?wallpapers",
-            "comments": [
-                {
-                    "id": 1,
-                    "author": "John Doe",
-                    "content": "Great post!"
-                },
-                {
-                    "id": 2,
-                    "author": "Jane Doe",
-                    "content": "I totally agree!"
-                }
-            ],
-            "likes": 10,
-            "dislikes": 2
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
         }
-    ],
-    "users":
-      [
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "5",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Crafting Your Career Path: The Ultimate Guide to Career Services",
+      "content": "Navigating the professional world can be daunting, but our university's Career Services is here to guide you every step of the way. In this comprehensive guide, we'll explore the extensive range of resources and services offered to help you kickstart your career journey. From one-on-one career counseling and personalized resume reviews to mock interviews and job search strategies, you'll learn how to showcase your skills and stand out in a competitive job market. We'll also introduce you to the career fairs, networking events, and employer information sessions hosted on campus, providing invaluable opportunities to connect with potential employers and gain industry insights. Additionally, you'll discover the online job portals, career exploration tools, and professional development workshops available to help you refine your goals and develop a clear career path.",
+      "Category": "Career Services",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
         {
-          "username": "Bob",
-          "password": "student1",
-          "role": "Student", 
-          "status": true
-        },
-        {
-          "username": "Ram",
-          "password": "faculty1",
-          "role": "Faculty",
-          "status": false
-        },
-        {
-          "username": "Sita",
-          "password": "staff1",
-          "role": "Staff",
-          "status": true
-        },
-        {
-          "username": "Alice",
-          "password": "moderator1",
-          "role": "Moderator",
-          "status": false
-        },
-        {
-          "username": "administrator1",
-          "password": "administrator1",
-          "role": "Administrator",
-          "status": true
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
         }
-      ]
-    
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "6",
+      "author": "Jack",
+      "title": "From Campus to Career: Transitioning with Confidence",
+      "content": "As graduation approaches, the excitement of embarking on a new professional journey can be accompanied by uncertainty. In this blog post, we'll explore the comprehensive range of resources and support provided by our Career Services office to help you navigate the transition from student life to the working world with confidence. You'll learn about job search strategies tailored to your field, including where to find job postings, how to craft compelling applications, and how to leverage your campus experiences and skills effectively. We'll also cover essential topics such as salary negotiation, understanding employee benefits, and workplace etiquette. Additionally, you'll gain insights on career advancement, continuous learning opportunities, and maintaining a healthy work-life balance. By utilizing these resources, you'll be well-equipped to make a seamless and successful transition into your chosen career path.",
+      "Category": "Career Services",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "7",
+      "author": "Jack",
+      "title": "Networking like a Pro: Career Services' Guide to Building Connections",
+      "content": "In today's competitive job market, networking is a critical skill that can unlock numerous professional opportunities. This blog post will equip you with the tools and strategies to build a robust professional network with the support of our Career Services team. You'll learn how to leverage alumni connections, attend industry events, and effectively communicate your personal brand. We'll also explore the art of informational interviews, providing insights on how to connect with professionals in your desired field and gain valuable career advice. Additionally, you'll discover tips on maintaining and nurturing your network, ensuring that you have a strong support system as you navigate your career path. By mastering the art of networking, you'll open doors to potential job leads, mentorship opportunities, and invaluable industry insights.",
+      "Category": "Career Services",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "8",
+      "author": "Jack",
+      "title": "Internship Insider: Unlocking Invaluable Experiences with Career Services",
+      "content": "Internships are a crucial stepping stone in your professional development, offering hands-on experience and industry connections. In this blog post, we'll provide an insider's guide to securing rewarding internship opportunities through our university's Career Services. You'll learn how to navigate the internship search process, from identifying suitable openings to crafting compelling applications and resumes that highlight your unique strengths. We'll also share tips on preparing for interviews, negotiating offers, and making the most of your internship experience. Additionally, you'll discover the exclusive internship programs, networking events, and employer partnerships facilitated by Career Services, opening doors to invaluable experiences that can shape your future career trajectory.",
+      "Category": "Career Services",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "9",
+      "author": "Jack",
+      "title": "Discover Campus Gems: Hidden Spots for Study, Relaxation, and More",
+      "content": "Beyond the well-known landmarks and bustling hubs, our campus is home to hidden gems that offer tranquil study nooks, serene outdoor spaces, and cozy hangout spots. In this blog post, we'll take you on a virtual tour of these lesser-known locales, unveiling the best-kept secrets for finding your perfect study haven, relaxation retreat, or social gathering place. From secluded gardens and quiet reading rooms to intimate cafes and cozy lounges, you'll discover an array of charming spots that cater to your unique needs and preferences. We'll also share insider tips on navigating these hidden gems, such as the best times to visit for optimal serenity or lively ambiance. Get ready to unlock a whole new level of campus exploration and make the most of your college experience.        ",
+      "Category": "Campus",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "10",
+      "author": "Jack",
+      "title": "Campus Safety: Ensuring a Secure and Inclusive Environment",
+      "content": "Safety and inclusivity are top priorities at our university, fostering an environment where all students can thrive. In this blog post, we'll delve into the comprehensive measures in place to ensure a secure and inclusive campus experience. From emergency preparedness plans and round-the-clock security personnel to blue-light emergency phones and safety escort services, you'll learn about the multifaceted approach to maintaining a safe campus. We'll also highlight resources for reporting incidents, seeking support, and raising awareness about safety concerns. Additionally, you'll discover initiatives promoting diversity, equity, and inclusion, such as cultural awareness programs, support services for underrepresented groups, and policies against discrimination and harassment. By understanding these safety and inclusivity measures, you'll gain peace of mind and a deeper appreciation for our university's commitment to creating a welcoming and secure environment for all.        ",
+      "Category": "Campus",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "12",
+      "author": "Jack",
+      "title": "Campus Life Hacks: Insider Tips for Navigating Our University",
+      "content": "Navigating a bustling campus can be challenging, but with the right insider knowledge, you can unlock a world of efficiency and convenience. In this blog post, we'll share invaluable campus life hacks to help you navigate our university like a pro. From finding the best food options and secret study spots to navigating the complex of buildings and cutting through campus shortcuts, you'll gain a wealth of time-saving tips and tricks. We'll also reveal the best places to take a break, recharge, and soak in the vibrant campus atmosphere. Additionally, you'll learn about the lesser-known resources and amenities available to enhance your overall campus experience. By mastering these insider hacks, you'll optimize your time, boost your productivity, and fully immerse yourself in the rich tapestry of campus life.",
+      "Category": "Campus",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "13",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Preserving Traditions: Exploring the Rich History and Heritage of Our University",
+      "content": "Our university has a storied past and a rich heritage that have shaped its identity and traditions over the centuries. In this blog post, we'll embark on a journey through time, exploring the historical landmarks, cultural artifacts, and enduring customs that have become an integral part of our institution's legacy. From architectural marvels steeped in history to time-honored ceremonies and rituals, you'll gain a deeper appreciation for the roots that have nourished our university's growth and evolution. We'll also introduce you to the dedicated archives and museums preserving our institutional history, offering a window into the lives and achievements of those who have left an indelible mark on our community. Additionally, you'll learn about the efforts to honor and celebrate our indigenous heritage, fostering a deeper understanding and respect for the land and cultures that have thrived here for generations. By immersing yourself in our university's history and heritage, you'll not only gain a sense of pride and connection but also cultivate a reverence for the traditions that have withstood the test of time.",
+      "Category": "Culture",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "14",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Bridging Cultures: Student Organizations Fostering Global Connections        ",
+      "content": "In our increasingly interconnected world, fostering cross-cultural understanding and global connections is more important than ever. At our university, a diverse array of student organizations is dedicated to promoting cultural exchange, embracing diversity, and building bridges between communities. In this blog post, we'll introduce you to these student-led initiatives, each with its unique mission and approach to fostering global connections. From cultural clubs celebrating heritage and traditions to organizations focused on international development and social justice, you'll discover a wealth of opportunities to engage with different cultures, participate in thought-provoking discussions, and contribute to meaningful causes. We'll also highlight their various events, such as cultural festivals, guest speaker series, and community outreach programs, providing platforms for cultural immersion and intercultural dialogue. By getting involved with these student organizations, you'll not only expand your global perspective but also cultivate invaluable skills in teamwork, leadership, and cross-cultural communication – essential for success in our increasingly globalized world.",
+      "Category": "Culture",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "15",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Art Unleashed: Exploring the Creative Scene on Campus",
+      "content": "Our campus is a thriving hub for artistic expression, where creativity takes center stage in a multitude of forms. In this blog post, we'll delve into the vibrant arts scene that enriches our university experience. From student-run galleries showcasing cutting-edge contemporary works to captivating performances by renowned artists and ensembles, you'll discover a diverse array of artistic outlets to explore and appreciate. We'll introduce you to the various art studios, theaters, and performance spaces that serve as creative playgrounds for budding artists and art enthusiasts alike. Additionally, you'll learn about art classes, workshops, and extracurricular opportunities that allow you to nurture your own artistic talents and explore new creative avenues. Whether you're a seasoned artist or simply appreciate the beauty of artistic expression, this blog post will immerse you in the vibrant creative scene that thrives on our campus.",
+      "Category": "Culture",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "16",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Embracing Diversity: A Celebration of Cultural Events on Campus        ",
+      "content": "Our university is a vibrant tapestry of cultures, traditions, and perspectives, and we take pride in celebrating this rich diversity through a multitude of cultural events, festivals, and celebrations. In this blog post, we'll take you on a journey through the captivating kaleidoscope of cultural experiences that unfold on our campus throughout the academic year. From vibrant festivals showcasing traditional music, dance, and culinary delights to thought-provoking lectures and discussions exploring global issues, you'll discover a wealth of opportunities to broaden your horizons and immerse yourself in different cultural narratives. We'll also highlight student-led cultural organizations and their initiatives, inviting you to actively participate in fostering cross-cultural understanding and appreciation. Get ready to embark on a journey of cultural discovery that will enrich your perspective and foster a deeper sense of global citizenship.",
+      "Category": "Culture",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "17",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Beyond Campus: Exploring Local Community Resources",
+      "content": "While our campus offers a wealth of resources and opportunities, the surrounding local community is equally rich with invaluable resources to enhance your college experience. In this blog post, we'll venture beyond the campus boundaries to explore the diverse array of resources available in the local area. From vibrant community centers and volunteering opportunities that allow you to give back to organizations dedicated to supporting small businesses and fostering economic growth, you'll discover ways to engage with and contribute to the local community. We'll also highlight cultural attractions, outdoor recreation spots, and unique local businesses that offer enriching experiences and a taste of the local flavor. By tapping into these community resources, you'll not only broaden your horizons but also forge meaningful connections and develop a deeper appreciation for the community that surrounds our university.",
+      "Category": "Local Community Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "18",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": "Town and Gown: Fostering Positive University-Community Relations",
+      "content": " Our university and the surrounding local community share a symbiotic relationship, each benefiting from the other's presence and success. In this blog post, we'll explore the various initiatives and programs that strengthen this 'town and gown' bond, fostering positive relations and mutual understanding. From community outreach efforts and service-learning projects that address local needs to town-gown partnerships promoting economic development and cultural exchange, you'll discover the multifaceted ways in which our university engages with and supports the local community. We'll also highlight joint efforts in areas such as sustainability, public safety, and urban planning, showcasing our shared commitment to creating a thriving and resilient community. Additionally, you'll learn about opportunities for students to participate in local governance and decision-making processes, enabling them to be active stakeholders in shaping the community's future. By fostering strong town and gown relations, we not only contribute to the well-being of our local area but also provide invaluable learning experiences for our students, preparing them to be responsible and engaged citizens.",
+      "Category": "Local Community Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "19",
+      "author": "Ram",
+      "role": "Faculty",
+      "title": " Giving Back: Volunteering Opportunities in the Local Community",
+      "content": " At our university, we believe in fostering a spirit of service and giving back to the local community that has embraced us. In this blog post, we'll explore the various volunteering opportunities available through local organizations and initiatives, each offering a unique way to make a positive impact. From community gardens and food banks addressing food insecurity to tutoring programs and mentorship initiatives supporting underprivileged youth, you'll discover a range of causes to align with your values and passions. We'll also highlight environmental conservation efforts, animal shelters, and healthcare organizations where you can contribute your time and skills. Additionally, you'll learn about the benefits of volunteering, such as developing leadership and problem-solving abilities, gaining practical experience, and forging meaningful connections within the community. By engaging in these volunteering opportunities, you'll not only contribute to the betterment of society but also cultivate a sense of purpose and personal growth that will enrich your college experience.",
+      "Category": "Local Community Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "20",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Local Gems: Hidden Treasures in Our College Town",
+      "content": "Beyond the well-known attractions and popular hotspots, our college town is brimming with hidden gems waiting to be discovered. In this blog post, we'll take you on a virtual tour of the lesser-known local treasures, unveiling the best-kept secrets that only true insiders know about. From quirky independent shops and cozy cafes with unparalleled ambiance to scenic hiking trails and secret outdoor havens, you'll discover a side of our town that few get to experience. We'll also share insider tips on the best times to visit these hidden gems, as well as recommendations for unique local events and festivals that celebrate the town's rich culture and traditions. Whether you're seeking a memorable culinary experience, a serene escape from the hustle and bustle, or an off-the-beaten-path adventure, this blog post will equip you with the knowledge to uncover the hidden treasures that make our college town truly special.",
+      "Category": "Local Community Resources",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "21",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Unleash Your Social Side: A Guide to Campus Life Events ",
+      "content": "College life is about more than just academics – it's an opportunity to build lasting connections, forge meaningful relationships, and create cherished memories. In this blog post, we'll take you on a whirlwind tour of the diverse array of social events and activities that keep our campus buzzing with energy year-round. From club meetings and student organization events that cater to a wide range of interests to captivating concerts, comedy shows, and cultural performances, you'll discover endless opportunities to.",
+      "Category": "Social",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "22",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Finding Your Tribe: Joining Student Organizations on Campus",
+      "content": "One of the best ways to build a social circle and find your community is by joining student organizations. Explore the wide range of clubs, associations, and interest groups available on campus, and learn how to get involved based on your passions and interests.",
+      "Category": "Social",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "23",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Dorm Life Diaries: Building Friendships and Creating Memories",
+      "content": "Living in the dorms is an integral part of the college experience. This blog post will offer insights and tips for navigating dorm life, building lasting friendships, and creating cherished memories with your fellow residents.",
+      "Category": "Social",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "24",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Virtual Connections: Staying Social in the Digital Age",
+      "content": "In today's world, social connections extend beyond physical boundaries. Discover how our university leverages digital platforms and virtual spaces to foster a sense of community, facilitate online events, and keep students connected, no matter where they are.",
+      "Category": "Social",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "25",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Intramural Insider: Building Community Through Friendly Competition",
+      "content": "Looking for a fun and inclusive way to stay active, meet new people, and foster a sense of camaraderie? Our university's intramural sports program offers just that – and more! In this blog post, we'll provide an insider's guide to the world of intramural sports, where friendly competition meets a vibrant community spirit. You'll discover the diverse array of sports leagues available, from classic team sports like basketball and soccer to quirky and unique options like quidditch and bubble soccer. We'll walk you through the process of forming a team, registering for leagues, and navigating the intramural sports calendar. Additionally, you'll gain insights into the various skill levels and divisions, ensuring a fair and enjoyable experience for players of all abilities. Beyond the games themselves, we'll highlight the social events, tournaments, and opportunities to connect with fellow sports enthusiasts, fostering a supportive and inclusive environment that extends beyond the playing field.",
+      "Category": "Sports",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "126",
+      "author": "sita",
+      "role": "Staff",
+      "title": "Fitness Fanatics: On-Campus Recreational Facilities and Programs",
+      "content": "Maintaining an active and healthy lifestyle is essential for overall well-being, and our university offers a wealth of resources to support your fitness goals. In this blog post, we'll take you on a virtual tour of the state-of-the-art recreational facilities and fitness programs available on campus. From fully-equipped gyms boasting the latest equipment and weight rooms to indoor sports courts, swimming pools, and rock-climbing walls, you'll discover an array of amenities to cater to your preferred workout routine. We'll also introduce you to the diverse range of group fitness classes, from high-intensity interval training to yoga and dance sessions, led by certified instructors. Additionally, you'll learn about outdoor adventures and recreational clubs that allow you to explore the great outdoors while staying active. Whether you're a seasoned athlete or simply looking to incorporate more movement into your day, this blog post will equip you with the knowledge to make the most of our campus's fitness offerings.",
+      "Category": "Sports",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "27",
+      "author": "Bob",
+      "role": "Student",
+      "title": "More Than Just a Game: The Life Lessons of Student-Athletes",
+      "content": "Being a student-athlete is a unique and challenging experience that extends far beyond the playing field. In this blog post, we'll go behind the scenes and hear directly from our university's student-athletes as they share their inspiring stories, triumphs, and the invaluable life lessons they've gained through their athletic pursuits. From time management and discipline to teamwork and resilience, you'll discover the valuable skills that these exceptional individuals have honed through their dedication to both academics and athletics. We'll explore the sacrifices they've made, the obstacles they've overcome, and the unwavering determination that drives them to excel in all aspects of their lives. Additionally, you'll gain insights into the support systems and resources available to student-athletes, ensuring they have the tools to thrive both on and off the field.",
+      "Category": "Sports",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "28",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Catch the Spirit: A Guide to University Sports and Athletics",
+      "content": "Get ready to experience the electrifying energy of our university's sports and athletics scene! In this comprehensive guide, we'll introduce you to the various athletic programs, teams, and events that ignite school spirit on campus. From the high-octane atmosphere of our acclaimed Division I teams to the fierce competition of club and intramural sports, you'll discover a vibrant community of dedicated athletes and passionate fans. We'll provide insider tips on scoring tickets, navigating game-day festivities, and joining the raucous student sections that fuel the excitement. Additionally, we'll highlight the state-of-the-art athletic facilities, training centers, and recreational spaces that cater to athletes and fitness enthusiasts alike. Whether you're a die-hard fan or simply seeking an adrenaline-fueled experience, this blog post will immerse you in the thrilling world of our university's sports and athletics.",
+      "Category": "Sports",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "29",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Nourishing Body and Mind: Exploring Healthy Dining Options on Campus",
+      "content": "Maintaining a nutritious diet is crucial for overall health, academic performance, and personal well-being. In this blog post, we'll take you on a mouthwatering journey through the various healthy dining options available on our campus. From plant-based and vegetarian fare to allergen-friendly and locally sourced offerings, you'll discover a diverse array of culinary choices that cater to different dietary needs and preferences. We'll introduce you to the dining halls, cafes, and eateries that prioritize fresh, wholesome ingredients and provide detailed nutritional information to support mindful eating habits. Additionally, you'll learn about campus initiatives like community gardens, farmers' markets, and sustainable food programs that promote eco-friendly and locally-sourced produce. Beyond just nourishing your body, we'll explore the connection between nutrition and cognitive function, highlighting brain-boosting foods and dining options that can support your academic success.",
+      "Category": "Health and Wellness",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "30",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Mindfulness Matters: Incorporating Mindful Practices into Student Life",
+      "content": "In today's fast-paced world, cultivating mindfulness and present-moment awareness can have a profound impact on your overall well-being. In this blog post, we'll explore the numerous mindfulness resources and programs available on our campus, designed to help you integrate mindful practices into your daily routine. From guided meditation sessions and breathwork workshops to yoga classes and mindful walking groups, you'll discover a variety of accessible avenues to develop greater self-awareness and inner peace. We'll also introduce you to mindfulness-based stress reduction techniques, proven to alleviate anxiety and enhance emotional resilience. Additionally, we'll highlight initiatives that promote mindful living on campus, such as quiet spaces for reflection, mindfulness-themed events, and opportunities to connect with like-minded individuals on their mindfulness journeys. By embracing mindfulness, you'll not only reduce stress and improve focus but also cultivate a deeper sense of presence, gratitude, and overall fulfillment during your college experience.",
+      "Category": "Health and Wellness",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "31",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Stress Less: Strategies for Coping with Academic Pressures",
+      "content": "College life can be demanding, and the pressures of academic rigor can often lead to heightened stress levels. In this blog post, we'll equip you with effective strategies for managing stress and cultivating a healthy mindset amidst the demands of your studies. We'll explore tried-and-true techniques such as time management, prioritization, and healthy sleep habits, as well as introduce you to mindfulness practices, breathing exercises, and relaxation techniques that can help you stay centered and focused. Additionally, we'll share insights from mental health professionals on recognizing the signs of burnout and seeking support when needed. You'll also discover campus resources like counseling services, stress-relief workshops, and quiet spaces designed to promote relaxation and rejuvenation. By implementing these coping strategies, you'll not only alleviate academic pressures but also foster a more balanced and fulfilling college experience.",
+      "Category": "Health and Wellness",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "32",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Prioritizing Your Well-Being: On-Campus Health and Wellness Resources",
+      "content": "Your health and well-being are of utmost importance at our university, and we offer a comprehensive range of resources to support your journey towards holistic wellness. In this blog post, we'll explore the various health and wellness services available on campus, from state-of-the-art medical facilities and counseling centers to fitness and nutrition programs. You'll learn about the dedicated team of healthcare professionals, counselors, and wellness experts who are committed to providing high-quality care and guidance. We'll introduce you to the student health center, where you can access routine check-ups, immunizations, and specialized care for a variety of health concerns. Additionally, we'll delve into the mental health resources, including individual and group counseling sessions, support groups, and workshops focused on stress management, mindfulness, and emotional well-being. Beyond physical and mental health, we'll highlight initiatives promoting overall wellness, such as healthy dining options, wellness coaching, and programs that foster a balanced lifestyle.",
+      "Category": "Health and Wellness",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "33",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Cutting-Edge Tech: Exploring Innovative Resources on Campus",
+      "content": "Our university is at the forefront of technological advancements, providing students with access to cutting-edge resources that foster innovation and prepare them for the future. In this blog post, we'll take you on a virtual tour of the state-of-the-art facilities and innovative technologies available on campus. From high-performance computing labs and 3D printing studios to virtual and augmented reality experiences, you'll discover a world of possibilities for hands-on learning, research, and exploration. We'll introduce you to the maker spaces and fabrication labs where you can bring your creative ideas to life, as well as the cutting-edge research facilities pushing the boundaries of science and technology. Additionally, you'll learn about the university's partnerships with leading tech companies, providing access to industry-standard tools, software, and training opportunities. Whether you're a budding entrepreneur, a tech enthusiast, or simply curious about the latest innovations, this blog post will immerse you in the vibrant technological ecosystem on our campus.",
+      "Category": "Technology",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "34",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Coding Confidence: Programming Resources for Student Developers",
+      "content": "In today's digital age, coding and programming skills are invaluable assets that can open doors to a wide range of career opportunities. At our university, we understand the importance of empowering students to become proficient coders and developers. In this blog post, we'll explore the comprehensive programming resources available to support your coding journey. From introductory coding workshops and bootcamps to advanced coding clubs and hackathons, you'll discover a wealth of opportunities to build your skills and gain hands-on experience. We'll introduce you to online learning platforms, coding tutorials, and dedicated coding spaces where you can collaborate with peers and receive guidance from experienced mentors. Additionally, we'll highlight coding-related events, guest lectures, and industry partnerships that provide insights into the latest programming trends and job prospects. Whether you're a complete beginner or an experienced coder, this blog post will equip you with the tools and support to elevate your coding confidence and prepare for success in the tech industry.",
+      "Category": "Technology",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "35",
+      "author": "Bob",
+      "role": "Student",
+      "title": "Staying Cyber-Safe: Tips for Digital Security on Campus",
+      "content": "In our increasingly digitalized world, protecting your personal information and maintaining online security is of paramount importance. In this blog post, we'll provide you with essential tips and best practices to stay cyber-safe while on campus. From securing your devices and accounts with strong passwords and multi-factor authentication to recognizing phishing attempts and malware threats, you'll learn how to navigate the digital landscape with confidence. We'll also introduce you to the university's cybersecurity resources, including workshops on data privacy, ethical hacking, and online safety. Additionally, you'll gain insights into the latest cybersecurity trends and the measures our institution takes to safeguard its digital infrastructure. By implementing these cyber-safety measures, you'll not only protect your personal data but also contribute to maintaining a secure and trusted online environment for the entire campus community.",
+      "Category": "Technology",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "36",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Tech for Good: Student Innovations Driving Positive Change",
+      "content": "At our university, we take pride in fostering a community of student innovators and entrepreneurs who are harnessing the power of technology to drive positive change. In this blog post, we'll showcase the inspiring student-led projects, startups, and initiatives that are making a meaningful impact across various sectors and addressing social and environmental challenges. From cutting-edge health tech solutions and sustainable innovations to educational technologies and social impact ventures, you'll discover how our students are pushing the boundaries of what's possible. We'll introduce you to the entrepreneurial support systems, incubators, and funding opportunities available on campus, empowering students to turn their ideas into reality. Additionally, you'll gain insights from successful student entrepreneurs, who will share their journeys, lessons learned, and advice for those passionate about using technology as a force for good. Get ready to be inspired by the innovative solutions and socially conscious mindset of our university's tech-savvy changemakers.",
+      "Category": "Technology",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "37",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Wanderlust on a Budget: Affordable Travel Opportunities for Students",
+      "content": "Exploring new places and immersing yourself in different cultures is an invaluable part of the college experience, but it doesn't have to break the bank. In this blog post, we'll reveal a wealth of affordable travel opportunities available to students, allowing you to indulge your wanderlust without breaking the bank. From budget-friendly study abroad programs and international service trips to weekend getaways and road trips within reach, you'll discover a world of possibilities for expanding your horizons. We'll share insider tips on finding deals, securing discounts, and maximizing your travel budget, ensuring that your adventures are both enriching and cost-effective. Additionally, we'll introduce you to student travel clubs, house-sitting opportunities, and work exchange programs that can further reduce your expenses while providing unique cultural experiences. Whether you're dreaming of exploring a new continent or simply seeking a nearby escape, this blog post will equip you with the knowledge and resources to make affordable travel a reality.",
+      "Category": "Travel",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "38",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Passport to Adventure: Studying Abroad and Cultural Immersion",
+      "content": "Studying abroad is a transformative experience that broadens horizons, fosters personal growth, and cultivates a global perspective. In this blog post, we'll dive into the world of international education and explore the diverse range of study abroad programs offered by our university. From semester-long immersions to short-term faculty-led trips, you'll discover opportunities to immerse yourself in new cultures, learn foreign languages, and gain invaluable life experiences. We'll guide you through the application process, provide insights into choosing the right program for your academic and personal goals, and share tips for navigating the logistical aspects of international travel. Additionally, you'll learn about the support systems in place to ensure a smooth transition, from pre-departure orientations to on-site resources and cultural integration programs. By embarking on a study abroad adventure, you'll not only expand your academic horizons but also develop cross-cultural communication skills, adaptability, and a deeper appreciation for global diversity – invaluable assets in today's interconnected world.",
+      "Category": "Travel",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "39",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Off the Beaten Path: Exploring Local Hidden Gems",
+      "content": "While international travel offers the allure of distant lands and new adventures, there is also a wealth of hidden gems to uncover right in your local area. In this blog post, we'll take you off the beaten path and reveal the best-kept secrets and lesser-known treasures that lie within a stone's throw of our campus. From charming small towns brimming with historical charm and quirky attractions to scenic hiking trails and outdoor havens that offer respite from the hustle and bustle, you'll discover a side of your local surroundings that few get to experience. We'll share insider tips on finding these hidden gems, as well as recommendations for unique local events, festivals, and culinary delights that showcase the rich culture and traditions of our region. Whether you're seeking a day trip adventure or a weekend escape, this blog post will inspire you to explore the hidden wonders right in your backyard.",
+      "Category": "Travel",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "40",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Travel Tips from Globetrotting Alumni: Insights for the Savvy Student Traveler",
+      "content": "Our alumni have ventured far and wide, accumulating a wealth of travel wisdom and invaluable insights along the way. In this blog post, we'll tap into their globetrotting experiences and share their best travel tips and advice for the savvy student traveler. From packing efficiently and navigating new cultures to staying safe on the road and making the most of your travel budget, you'll gain insider knowledge that can only come from those who have walked the path before you. We'll introduce you to alumni who have embarked on solo adventures, participated in voluntourism initiatives, and even started their own travel businesses, providing a diverse array of perspectives and lessons learned. Additionally, you'll discover resources for connecting with our global alumni network, opening doors to local connections, insider recommendations, and potential travel buddies no matter where your adventures take you. Get ready to be inspired and empowered to explore the world with confidence and savvy.",
+      "Category": "Travel",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "41",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Alumni Spotlights: Inspirational Stories of Success and Impact",
+      "content": "Our alumni have gone on to achieve remarkable success across various industries and sectors, making their mark on the world in inspiring ways. In this blog post series, we'll shine a spotlight on the stories of these extraordinary individuals, celebrating their achievements and the lasting impact they've made on their communities and beyond. From trailblazing entrepreneurs and industry leaders to renowned artists, scientists, and changemakers, you'll gain insights into the journeys that shaped their success. We'll delve into their motivations, challenges overcome, and the pivotal moments that propelled them towards their goals. Additionally, you'll learn about the ways in which our alumni are giving back, whether through mentorship programs, philanthropic initiatives, or using their platforms to inspire and uplift others. These inspiring stories will not only serve as a testament to the power of perseverance and determination but will also provide valuable lessons and guidance for your own path to success.",
+      "Category": "Alumni",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "42",
+      "author": "Alice",
+      "role": "Moderator",
+      "title": "Giving Back: How Alumni Support Their Alma Mater",
+      "content": "Our alumni play a vital role in supporting the growth and development of our university, ensuring that future generations of students have access to the same opportunities and resources that helped shape their own success. In this blog post, we'll explore the various ways in which alumni give back to their alma mater, contributing to the continued excellence of our institution. From establishing scholarship funds and endowments to supporting academic programs and research initiatives, you'll discover the profound impact of alumni generosity. We'll also highlight the invaluable contributions of alumni mentors, who share their expertise and guidance through guest lectures, career workshops, and one-on-one mentorship opportunities. Additionally, you'll learn about the robust alumni network and its role in fostering connections, facilitating networking events, and creating a strong sense of community that extends far beyond campus boundaries. By giving back, our alumni not only honor their roots but also invest in the future of our university and its students.",
+      "Category": "Alumni",
+      "image": "https://source.unsplash.com/random?wallpapers",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "content": "Great post!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Doe",
+          "content": "I totally agree!"
+        }
+      ],
+      "likes": 10,
+      "dislikes": 2
+    },
+    {
+      "id": "dc292094-84a4-4794-b8f7-6dc18665490a",
+      "title": "sdfg",
+      "Category": "Career Services",
+      "image": {},
+      "comments": [],
+      "likes": 0,
+      "dislikes": 0,
+      "content": "<p>sdfgb</p>",
+      "author": "administrator1",
+      "role": "Administrator"
+    },
+    {
+      "id": "715c8795-7f9c-444e-a9ae-bfc692a6de98",
+      "title": "trdsdfgh",
+      "Category": "Campus",
+      "image": {},
+      "comments": [],
+      "likes": 0,
+      "dislikes": 0,
+      "content": "<p>snmd,fgvb</p>",
+      "author": "administrator1",
+      "role": "Administrator"
+    }
+  ],
+  "users": [
+    {
+      "username": "Bob",
+      "password": "student1",
+      "role": "Student",
+      "status": true,
+      "id": "4ff9"
+    },
+    {
+      "username": "Ram",
+      "password": "faculty1",
+      "role": "Faculty",
+      "status": false,
+      "id": "46aa"
+    },
+    {
+      "username": "Sita",
+      "password": "staff1",
+      "role": "Staff",
+      "status": true,
+      "id": "bb66"
+    },
+    {
+      "username": "Alice",
+      "password": "moderator1",
+      "role": "Moderator",
+      "status": false,
+      "id": "de31"
+    },
+    {
+      "username": "administrator1",
+      "password": "administrator1",
+      "role": "Administrator",
+      "status": true,
+      "id": "e340"
+    },
+    {
+      "id": "4e9a"
+    }
+  ]
 }

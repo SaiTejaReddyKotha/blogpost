@@ -10,11 +10,11 @@ const UserMan = (props) => {
         const fetchData = async () => {
           try {
             // Simulating an asynchronous API call
-            const response = await fetch('/db.json');
+            const response = await fetch('http://localhost:3001/users');
             const result = await response.json();
             setresult(result)
-            result.users.pop();
-            setusers(result.users)
+            result.pop();
+            setusers(result)
           } catch (err) {
             console.log(err.message);
           }
@@ -34,7 +34,11 @@ const UserMan = (props) => {
 
       const handleSave = async () => {
         try {
-            const response = await axios.post('/db.json', result);
+          const serverEndpoint = 'http://localhost:3001/users';
+
+          // Make a POST request to update the data on the server
+          const response = await axios.post(serverEndpoint, { users: result.users });
+      
             console.log('Data successfully written to filedb.json');
         } catch (error) {
             console.error('Error writing file:', error);
@@ -70,3 +74,4 @@ const UserMan = (props) => {
 }
 
 export default UserMan
+

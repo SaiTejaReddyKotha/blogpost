@@ -25,7 +25,7 @@ export default function SignIn(props) {
     try {
       const response = await axios.get('/db.json');
       const user = response.data.users.find(
-        (user) => user.username === formData.username && user.password === formData.password
+        (user) => user.username === formData.username && user.password === formData.password 
       );
 
       if (user) {

@@ -1,17 +1,33 @@
 import React, { useState, useContext, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-
+import "./createPost.css"; // Import the CSS file
 import Description from "./Description";
-
+import { v4 as uuidv4 } from "uuid"; 
+import axios from "axios";
 function CreatePost(props) {
   // State variables for the post form
+  const [posts, setPosts] = useState([]);
+  const [result, setResult] = useState([]);
   const [description, setDescription] = useState("");
   const [postForm, handlePostForm] = useState({
     title: "",
     Category: "",
   });
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://localhost:3001/posts');
+        const result = await response.json();
+        setResult(result);
+        setPosts(result);
+      } catch (err) {
+        console.log(err.message);
+      }
+    };
+    fetchData();
+  }, []);
   // State variable for the label of the post button
   const [postbtnLabel, handlePostbtnLabel] = useState(true);
   const [btnClicked, setBtnClicked] = useState(false);
@@ -30,7 +46,7 @@ function CreatePost(props) {
   };
 
   // Handle the submission of the post form
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Update the button label to show loading state
@@ -43,12 +59,30 @@ function CreatePost(props) {
       title,
       Category,
       image,
+        comments: [],
+        likes: 0,
+        dislikes: 0,
       content: description,
       author: props.user.username,
+      role:props.user.role,
+      id:uuidv4()
     };
+    setPosts((prevPosts) => [...prevPosts, postDetails]);
+
     console.log(postDetails)
     handlePostbtnLabel(true);
-    alert("New post published");
+
+    try {
+      const serverEndpoint = 'http://localhost:3001/posts';
+
+      // Make a POST request to update the data on the server
+      await axios.post(serverEndpoint, postDetails );
+      alert("New post published");
+        console.log('Data successfully written to filedb.json');
+    } catch (error) {
+        console.error('Error writing file:', error);
+    }
+    //alert("New post published");
     props.setcreatePost(false);
     props.setoptions(true)
   };

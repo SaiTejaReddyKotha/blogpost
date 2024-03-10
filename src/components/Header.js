@@ -23,6 +23,7 @@ function Header(props) {
 
   const handleSignInOpen = () => {
     setSignInOpen(true);
+    
   };
 
   const handleSignInClose = () => {
@@ -47,11 +48,27 @@ function Header(props) {
 
   const handlefilter = async (title) => {
     //console.log(props.data)
-    const data = await axios.get('/db.json')
-    const rawData = data.data.posts
+    const data = await axios.get('http://localhost:3001/posts')
+    const rawData = data.data
     
     const filteredRows = rawData.filter((row) => row.Category == title)
     setdata(filteredRows)
+  }
+  const handleauthorfilter = async (author) => {
+    //console.log(props.data)
+    const data = await axios.get('http://localhost:3001/posts')
+    const rawData = data.data
+
+    const filteredRows = rawData.filter((row) => row.author == author)
+    setdata(filteredRows)
+  }
+  const handledata = async () => {
+    //console.log(props.data)
+    const data = await axios.get('http://localhost:3001/posts')
+    const rawData = data.data
+
+    
+    setdata(rawData)
   }
 
   return (
@@ -67,24 +84,24 @@ function Header(props) {
         >
           {title}
         </Typography>
-        {props.users != null && props.users.role == "Administrator"? (<Button variant="outlined" size="small" onClick={handleUserManOpen}>
+        {props.users != null && props.users.role == "Administrator"? (<Button sx={{ marginLeft: '10px' }} size="small" onClick={handleUserManOpen}>
           User Management
         </Button>) : (null)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {handledata(); setcreatePost(false); props.setoptions(true); props.setviewPosts(false)}}>
           Home
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {setcreatePost(true); props.setoptions(false)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {setcreatePost(true); props.setoptions(false)}}>
           Create Post
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={() => {props.setviewPosts(true)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {handleauthorfilter(props.users.username); props.setoptions(false) }}>
           My Posts
         </Button>)}
-        {props.users == null ? (null) : (<Button variant="outlined" size="small" onClick={handleProfileOpen}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={handleProfileOpen}>
           {props.users.username}
         </Button>)}
-        {props.users == null ? ( <Button variant="outlined" size="small" onClick={handleSignInOpen}>
+        {props.users == null ? ( <Button sx={{ marginLeft: '10px' }} variant="outlined" size="small" onClick={handleSignInOpen}>
           Login
-        </Button>) : ( <Button variant="outlined" size="small" onClick={() => {props.setuser(null); setcreatePost(false); props.setoptions(true)}}>
+        </Button>) : ( <Button sx={{ marginLeft: '10px' }} variant="outlined" size="small" onClick={() => {handledata();props.setuser(null); setcreatePost(false); props.setoptions(true)}}>
           LogOut
         </Button>)}
        
