@@ -1,18 +1,6 @@
 {
   "posts": [
     {
-      "id": "2",
-      "author": "Alice",
-      "role": "Moderator",
-      "title": "Demystifying Research: A Comprehensive Guide to Library Resources",
-      "content": "Our university's libraries are a treasure trove of knowledge, housing a vast array of resources to support your academic pursuits. In this in-depth blog post, we'll take you on a guided tour through the library's extensive offerings. You'll learn how to navigate the online databases, access scholarly journals and e-books, and leverage interlibrary loan services to obtain materials from other institutions. We'll also provide tips on utilizing the print collections, seeking research assistance from librarians, and making the most of the library's study spaces and technologically-equipped facilities. By the end, you'll be equipped with the skills to conduct thorough research and unlock the full potential of our library resources.",
-      "Category": "Academic Resources",
-      "image": "https://source.unsplash.com/random?wallpapers",
-      "comments": [],
-      "likes": 2,
-      "dislikes": 0
-    },
-    {
       "id": "3",
       "author": "Alice",
       "role": "Moderator",
@@ -894,6 +882,30 @@
       "content": "<p>snmd,fgvb</p>",
       "author": "administrator1",
       "role": "Administrator"
+    },
+    {
+      "id": "d348f73d-5ffa-4c7a-b6cf-c13957136b8e",
+      "title": "hj,",
+      "Category": "Social",
+      "image": {},
+      "comments": [],
+      "likes": 0,
+      "dislikes": 0,
+      "content": "nbm,",
+      "author": "Sita",
+      "role": "Staff"
+    },
+    {
+      "id": "df9a5024-b192-4165-98cb-0c514d5fcedc",
+      "title": "test title",
+      "Category": "Academic Resources",
+      "image": {},
+      "comments": [],
+      "likes": 0,
+      "dislikes": 0,
+      "content": "test demo",
+      "author": "Bob",
+      "role": "Student"
     }
   ],
   "users": [
@@ -915,14 +927,14 @@
       "username": "Sita",
       "password": "staff1",
       "role": "Staff",
-      "status": true,
+      "status": false,
       "id": "bb66"
     },
     {
       "username": "Alice",
       "password": "moderator1",
       "role": "Moderator",
-      "status": false,
+      "status": true,
       "id": "de31"
     },
     {
@@ -931,9 +943,6 @@
       "role": "Administrator",
       "status": true,
       "id": "e340"
-    },
-    {
-      "id": "4e9a"
     }
   ]
 }

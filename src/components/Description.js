@@ -1,7 +1,6 @@
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Underline from "@tiptap/extension-underline";
-
 import {
   FaBold,
   FaHeading,
@@ -131,7 +130,7 @@ const MenuBar = ({ editor }) => {
           <FaRedo />
         </button>
       </div>
-    </div>
+   </div>
   );
 };
 
@@ -140,10 +139,12 @@ const Description = ({ setDescription, initialValue }) => {
     {
       extensions: [StarterKit, Underline],
       content: `${initialValue ? initialValue : " "}`,
-
       onUpdate: ({ editor }) => {
-        const html = editor.getHTML();
-        setDescription(html);
+        const plainText = new DOMParser().parseFromString(
+          editor.getHTML(),
+          "text/html"
+        ).body.textContent;
+        setDescription(plainText);
       },
     },
     [initialValue]
