@@ -1,6 +1,7 @@
 import * as React from 'react';
 
-const ViewPosts = () => {
+const ViewPosts = (props) => {
+    console.log(props.user)
     return (
         <h1>View Posts</h1>
     )
