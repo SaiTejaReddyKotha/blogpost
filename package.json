@@ -27,13 +27,15 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.5",
     "tiptap": "^1.32.2",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch public/db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
