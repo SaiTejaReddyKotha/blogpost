@@ -1,7 +1,7 @@
 import Blog from './components//Blog.js';
 import './App.css';
 import createPost from './components/createPost.js';
-
+import UserManagement from './components/UserManagement.js';
 
 import * as React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
@@ -24,7 +24,7 @@ function App() {
             }
           />
           <Route exact path="createPost" Component={createPost} />
-          {/* <Route exact path="postindetail" Component={PostinDetail} /> */}
+          <Route exact path="UserManagement" Component={UserManagement} />
         </Routes>
       </BrowserRouter>
       {/* <Blog /> */}

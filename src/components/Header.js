@@ -9,7 +9,7 @@ import { Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import SignInSide from '././signin';
-import { useState } from 'react';
+import { useEffect,useState } from 'react';
 import Profile from './Profile';
 import axios from 'axios';
 
@@ -18,6 +18,21 @@ function Header(props) {
   const { sections, title, setcreatePost, setdata } = props;
   const [signInOpen, setSignInOpen] = React.useState(false);
   const [profileOpen, setProfileOpen] = useState(false)
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Simulating an asynchronous API call
+        const response = await fetch('/db.json');
+        const result = await response.json();
+        console.log(result)
+        setdata(result.posts)
+      } catch (err) {
+        console.log(err.message);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const handleSignInOpen = () => {
     setSignInOpen(true);
@@ -43,6 +58,14 @@ function Header(props) {
     const filteredRows = rawData.filter((row) => row.Category == title)
     setdata(filteredRows)
   }
+  const handleauthorfilter = async (author) => {
+    //console.log(props.data)
+    const data = await axios.get('/db.json')
+    const rawData = data.data.posts
+    
+    const filteredRows = rawData.filter((row) => row.author == author)
+    setdata(filteredRows)
+  }
 
   return (
     <React.Fragment>
@@ -66,7 +89,7 @@ function Header(props) {
         {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {setcreatePost(true); props.setoptions(false)}}>
           Create Post
         </Button>)}
-        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {props.setviewPosts(true)}}>
+        {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={() => {handleauthorfilter(props.users.username); props.setoptions(false) }}>
           My Posts
         </Button>)}
         {props.users == null ? (null) : (<Button sx={{ marginLeft: '10px' }} size="small" onClick={handleProfileOpen}>
