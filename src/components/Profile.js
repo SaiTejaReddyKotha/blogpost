@@ -4,7 +4,7 @@ import { Avatar, Link, Button, CssBaseline, TextField, FormControlLabel, Checkbo
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Profile = (props) => {
-    console.log(props)
+    //console.log(props)
     return (
         <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -16,7 +16,7 @@ const Profile = (props) => {
           alignItems: 'center',
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+        <Avatar sx={{ m: 1, bgcolor: 'primary.main' }}>
           <AccountCircleIcon />
         </Avatar>
         <Typography component="h1" variant="h5">

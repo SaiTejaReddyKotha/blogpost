@@ -23,8 +23,11 @@ export default function SignIn(props) {
     event.preventDefault();
 
     try {
-      const response = await axios.get('/db.json');
-      const user = response.data.users.find(
+      // const response = await axios.get('/db.json');
+      const response = await axios.get("http://localhost:4500/getcreds", {
+      withCredentials: true,
+    });
+      const user = response.data.find(
         (user) => user.username === formData.username && user.password === formData.password && user.status === true
       );
 

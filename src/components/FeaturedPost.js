@@ -9,21 +9,22 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import { useState } from 'react';
-import { Dialog, DialogContent, Box, TextField, Button, DialogTitle } from '@mui/material';
+import { Dialog, DialogContent, Box, TextField, Button, DialogTitle, Switch } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import CommentIcon from '@mui/icons-material/Comment';
 import ReplyIcon from '@mui/icons-material/Reply';
 import CommentBox from './CommentBox';
 import './FeaturedPost.css'; // Import the CSS file
-
+import axios from "axios";
 function FeaturedPost(props) {
   const { post } = props;
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [comOpen, setcomOpen] = useState(false);
   const [replyOpen, setreplyOpen] = useState(false);
   const [newcomments, setnewcomments] = useState([]);
-  const [posts, setPosts] = useState(/* Your posts data, possibly from an API or local storage */);
-
+  const [posts, setPosts] = useState();
+  const [replyText, setReplyText] = useState('');
+  
   const handleDetailsOpen = () => {
     setDetailsOpen(true);
   };
@@ -42,10 +43,12 @@ function FeaturedPost(props) {
 
   const handlereplyDialogOpen = () => {
     setreplyOpen(true);
+    setGenerateReply(false);
   };
 
   const handlereplyDialogClose = () => {
     setreplyOpen(false);
+    setReplyText('');
   };
 
   const handleChange = (e) => {
@@ -60,31 +63,67 @@ function FeaturedPost(props) {
     if (props.user != null && props.user.role === "Moderator") {
       // Remove the post from the posts data
       try {
-        // Assuming you have an API endpoint for deleting posts
-        const response = await fetch(`http://localhost:3001/posts/${post.id}`, {
-          method: 'DELETE',
-        });
-
-        if (response.ok) {
-          // If the deletion was successful, close the details dialog
-          setDetailsOpen(false);
-        } else {
-          console.error('Failed to delete post');
-          // Handle error accordingly
-        }
+        const response = await fetch(`http://localhost:4500/deleteposts/${post.id}`, {
+        method: 'DELETE',
+      });
+        console.log(response.success);
+        setDetailsOpen(false);
+        //buttonElement.click();
+        
       } catch (error) {
         console.error('Error occurred while deleting post', error);
         // Handle error accordingly
       }
     }
   };
+  const [generateReply, setGenerateReply] = useState(false); // State for OpenAI generated replies
 
-  const handleSubmit = () => {
-    post.comments = newcomments;
-    setreplyOpen(false);
+  const handleGenerateReplyToggle = () => {
+    setGenerateReply(!generateReply);
+    console.log("in handleGenerateReplyToggle ",generateReply);
+    if (!generateReply) {
+      // Call handleGenerateReply function to get the reply message response
+      handleGenerateReply();
+    } else {
+      setReplyText(''); // Clear text field when generateReply is toggled off
+    }
   };
 
-  
+  const handleGenerateReply = async () => {
+    if (!generateReply) {
+      try {
+        // Call OpenAI completion endpoint to generate reply
+        const rtitle=post.title;
+        const rcontent=post.content;
+        const response = await axios.post('http://localhost:4500/generate-reply', { rtitle, rcontent });
+      
+        const generatedReply = response.data; 
+          console.log("Generated Reply is ",generatedReply);
+          setReplyText(generatedReply);
+          setGenerateReply(false);
+          // Extract generated reply from response
+      } catch (error) {
+        console.error('Error occurred while generating reply', error);
+        // Handle error accordingly
+      }
+    } 
+  };
+
+
+  // const handleSubmit = () => {
+  //   post.comments = newcomments;
+  //   setreplyOpen(false);
+  // };
+  const handleSubmit = () => {
+    const commentText = !generateReply ? replyText : post.comments[post.comments.length - 1].content; // If generating reply, use replyText, otherwise use the manually entered text
+    const newComment = { "author": `${props.user.username}`, "content": commentText };
+    const updatedComments = [...post.comments, newComment]; // Append the new comment to the existing comments
+    post.comments = updatedComments; // Update the comments in the post
+    setnewcomments(updatedComments); // Update the newcomments state
+    setreplyOpen(false); // Close the reply dialog
+    setReplyText('');
+  };
+
 
   return (
     <div className="featured-post">
@@ -95,8 +134,8 @@ function FeaturedPost(props) {
               {post.title}
             </Typography>
             <Typography variant="subtitle2" className="post-author">
-            Author: {post.author}
-          </Typography>
+              Author: {post.author}
+            </Typography>
             <div className="post-actions">
               <IconButton onClick={handlecomDialogOpen}>
                 <CommentIcon />
@@ -131,23 +170,23 @@ function FeaturedPost(props) {
           <Typography variant="subtitle2" className="post-author">
             Author: {post.author}
           </Typography>
-          
+
           <Typography variant="subtitle1" paragraph className="post-content">
             {post.content}
           </Typography>
           <div className="post-actions">
-              <IconButton onClick={handlecomDialogOpen}>
-                <CommentIcon />
+            <IconButton onClick={handlecomDialogOpen}>
+              <CommentIcon />
+            </IconButton>
+            <IconButton onClick={handlereplyDialogOpen}>
+              <ReplyIcon />
+            </IconButton>
+            {props.user != null && props.user.role === "Moderator" ? (
+              <IconButton onClick={handleDelete} className="delete-button">
+                <DeleteIcon />
               </IconButton>
-              <IconButton onClick={handlereplyDialogOpen}>
-                <ReplyIcon />
-              </IconButton>
-              {props.user != null && props.user.role === "Moderator" ? (
-                <IconButton onClick={handleDelete} className="delete-button">
-                  <DeleteIcon />
-                </IconButton>
-              ) : null}
-            </div>
+            ) : null}
+          </div>
         </DialogContent>
       </Dialog>
 
@@ -169,16 +208,34 @@ function FeaturedPost(props) {
 
       {/* Reply Dialog */}
       <Dialog open={replyOpen} onClose={handlereplyDialogClose} fullWidth maxWidth="md">
-        <DialogTitle><b>Write your reply</b></DialogTitle>
-        <DialogContent className='signin-style'>
-          {props.user != null ? (
-            <>
-              <TextField type='text' sx={{ width: '100%' }} onChange={(e) => { handleChange(e); }} />
-              <Button onClick={handleSubmit}>Submit</Button>
-            </>
-          ) : (<h2>Please LogIn</h2>)}
-        </DialogContent>
-      </Dialog>
+      <DialogTitle><b>Write your reply</b></DialogTitle>
+      <DialogContent className='signin-style'>
+
+        {props.user != null ? (
+          <>
+            <Switch
+              checked={generateReply}
+              onChange={handleGenerateReplyToggle}
+              color="primary"
+              inputProps={{ 'aria-label': 'toggle OpenAI generated replies' }}
+            />
+            <Typography variant="body2" color="textSecondary">
+              Generate Reply
+            </Typography>
+
+            <TextField 
+              type='text' 
+              sx={{ width: '100%' }} 
+              onChange={(e) => { handleChange(e); }} 
+              value={generateReply ? "Generating reply..." : replyText} // Displaying "Generating reply..." while generating
+              disabled={generateReply} // Disabling the text field if generating reply
+            />
+            <Button onClick={handleSubmit}>Submit</Button>
+          </>
+        ) : (<h2>Please LogIn</h2>)}
+      </DialogContent>
+    </Dialog>
+
     </div>
   );
 }

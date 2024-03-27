@@ -37,6 +37,17 @@ function CreatePost(props) {
     handlePostForm({ ...postForm, [e.target.name]: e.target.files[0] });
   };
 
+
+  const sendEmailNotification = async (postCategory, title, author) => {
+    const url = `http://localhost:4500/sendemails/${postCategory}/${title}/${author}`;
+    try {
+      await axios.get(url);
+      console.log("Email notification sent to subscribed users in the category");
+    } catch (error) {
+      console.error(error.message);
+      console.error("Error sending email notification to subscribed users");
+    }
+  };
   // Handle the input of the post form
   const inputHandler = (e) => {
     handlePostForm({
@@ -58,7 +69,7 @@ function CreatePost(props) {
     const postDetails = {
       title,
       Category,
-      image,
+      image:"https://source.unsplash.com/random?wallpapers",
         comments: [],
         likes: 0,
         dislikes: 0,
@@ -72,16 +83,20 @@ function CreatePost(props) {
     console.log(postDetails)
     handlePostbtnLabel(true);
 
-    try {
-      const serverEndpoint = 'http://localhost:3001/posts';
+   
+      const serverEndpoint = 'http://localhost:4500/savepost';
 
       // Make a POST request to update the data on the server
-      await axios.post(serverEndpoint, postDetails );
-      alert("New post published");
-        console.log('Data successfully written to filedb.json');
-    } catch (error) {
-        console.error('Error writing file:', error);
-    }
+      await axios.post("http://localhost:4500/savepost", postDetails)
+      .then((response) => {
+        console.log(response.data);
+        sendEmailNotification(Category,title,props.user.username);
+        alert("Post created successfully");
+      })
+      .catch((error) => {
+        console.error(error.message);
+        alert("Error creating post");
+      });
     //alert("New post published");
     props.setcreatePost(false);
     props.setoptions(true)

@@ -61,7 +61,7 @@ const UserMan = (props) => {
           <Grid item xs={12} key={user.id}>
             <Grid container alignItems="center">
               <Grid item xs={6}>
-                {user.username}
+                {user.subscribedto}
               </Grid>
               <Grid item xs={6}>
                 <FormControlLabel

@@ -2,24 +2,23 @@ import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import Box from '@mui/material/Box';
-import XIcon from '@mui/icons-material/X';
+import { Button, CircularProgress } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
-import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
-import Main from './Main';
 import { useEffect, useState } from 'react';
-import Sidebar from './Sidebar';
+//import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
+// import post1 from './blog-post.1.md';
+// import post2 from './blog-post.2.md';
+// import post3 from './blog-post.3.md';
 import CreatePost from './createPost';
 import ViewPosts from './ViewPosts';
 import axios from 'axios';
+import ChatWindow from './ChatWindow';
+import OpenAI from 'openai';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
 
 const sections = [
   { title: 'Academic Resources', url: '#' },
@@ -64,7 +63,7 @@ const sections = [
 //   },
 // ];
 
-const posts = [post1, post2, post3];
+//const posts = [post1, post2, post3];
 
 // const sidebar = {
 //   title: 'About',
@@ -105,14 +104,48 @@ export default function Blog() {
   //   setcurrentPage(currentPath)
   //   console.log(currentPath)
   // }, [])
+
+
+
+
+
+
+
+  //chat bot code
+  const [chatOpen, setChatOpen] = useState(false);
+  const [chatMessages, setChatMessages] = useState([]);
+
+  const handleChatIconClick = () => {
+    setChatOpen(!chatOpen);
+  };
+
+  const handleSendMessage = (message) => {
+    // Add user message to chat
+    setChatMessages([...chatMessages, { author: 'user', message }]);
+    // Process user input and generate agent response
+    processUserInput(message);
+  };
+
+  const processUserInput = (userInput) => {
+    // Logic to process user input and generate agent response
+    // For simplicity, let's assume the response is hardcoded
+    const agentResponse = "This is a dummy agent response.";
+    // Add agent response to chat
+    setChatMessages([...chatMessages, { author: 'agent', message: agentResponse }]);
+  };
+
+
+  //chat bot code ends
   useEffect(() => {
     const fetchData = async () => {
       try {
         // Simulating an asynchronous API call
-        const response = await fetch('http://localhost:3001/posts');
-        const result = await response.json();
-        console.log(result)
-        setdata(result)
+        const data = await axios.get("http://localhost:4500/getData", {
+      withCredentials: true,
+    });
+    setdata(data.data);
+        // console.log(result)
+        // setdata(result)
       } catch (err) {
         console.log(err.message);
       }
@@ -124,26 +157,9 @@ export default function Blog() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth= "lg">
         <Header title="Illinois Tech Blog Post" setdata={setdata} sections={sections} setcreatePost={setcreatePost} options={options} setoptions={setoptions} users={user} setuser={setuser} setviewPosts={setviewPosts}/>
-        {/* {createPost ? (<CreatePost user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>) : ({viewPosts ? (<ViewPosts user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>) : (<main>
-          <MainFeaturedPost post={mainFeaturedPost} />
-          <Grid container spacing={4}>
-            {featuredPosts.map((post) => (
-              <FeaturedPost key={post.title} post={post} />
-            ))}
-          </Grid>
-          <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="From the firehose" posts={posts} />
-            <Sidebar
-              title={sidebar.title}
-              description={sidebar.description}
-              archives={sidebar.archives}
-              social={sidebar.social}
-            />
-          </Grid>
-        </main>)})} */}
-
+        
 {createPost ? (
         // Condition: Display CreatePost component
         <CreatePost data={data} setdata={setdata} user={user} setcreatePost={setcreatePost} setoptions={setoptions}/>
@@ -168,6 +184,28 @@ export default function Blog() {
         title="Footer"
         description="Something here to give the footer a purpose!"
       />
+
+<Box
+        position="fixed"
+        bottom={16}
+        right={16}
+        zIndex={1000}
+        onClick={handleChatIconClick}
+        style={{ cursor: 'pointer' }}
+      >
+        <SmartToyIcon fontSize="large" />
+      </Box>
+      {chatOpen && (
+        <Box
+          position="fixed"
+          bottom={88} 
+          right={16}
+          zIndex={1001}
+          boxShadow={3}
+        >
+          <ChatWindow chatMessages={chatMessages} onSendMessage={handleSendMessage} />
+        </Box>
+      )}
     </ThemeProvider>
   );
 }
